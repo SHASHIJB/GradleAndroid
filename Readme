@@ -1,0 +1,12 @@
+
+Grade Project 
+
+Install latest Gradle files should be configured 
+
+1. All the Dependency files present in build.gradle file
+2. To run the 
+
+  a. Go the command prompt and navigate to project path
+  b. gradle clean
+  c. grade build 
+  d. gradle run
