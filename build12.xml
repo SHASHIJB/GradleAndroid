@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="compile" name="vzcloud_android">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="Maven Dependencies.libraryclasspath"/>
+    <path id="vzcloud_android.classpath">
+        <pathelement location="target/classes"/>
+        <pathelement location="jars/apache-mime4j-0.6.jar"/>
+        <pathelement location="jars/bsh-1.3.0.jar"/>
+        <pathelement location="jars/cglib-nodep-2.1_3.jar"/>
+        <pathelement location="jars/commons-codec-1.9.jar"/>
+        <pathelement location="jars/commons-collections-3.2.1.jar"/>
+        <pathelement location="jars/commons-exec-1.1.jar"/>
+        <pathelement location="jars/commons-io-2.4.jar"/>
+        <pathelement location="jars/commons-jxpath-1.3.jar"/>
+        <pathelement location="jars/commons-lang3-3.3.2.jar"/>
+        <pathelement location="jars/commons-logging-1.1.3.jar"/>
+        <pathelement location="jars/cssparser-0.9.14.jar"/>
+        <pathelement location="jars/dom4j-1.1.jar"/>
+        <pathelement location="jars/gson-2.2.4-javadoc.jar"/>
+        <pathelement location="jars/gson-2.2.4-sources.jar"/>
+        <pathelement location="jars/gson-2.2.4.jar"/>
+        <pathelement location="jars/gson-2.3.1.jar"/>
+        <pathelement location="jars/guava-18.0.jar"/>
+        <pathelement location="jars/hamcrest-core-1.3.jar"/>
+        <pathelement location="jars/hamcrest-library-1.3.jar"/>
+        <pathelement location="jars/htmlunit-2.15.jar"/>
+        <pathelement location="jars/htmlunit-core-js-2.15.jar"/>
+        <pathelement location="jars/httpclient-4.3.6.jar"/>
+        <pathelement location="jars/httpcore-4.3.3.jar"/>
+        <pathelement location="jars/httpmime-4.3.6.jar"/>
+        <pathelement location="jars/ini4j-0.5.2.jar"/>
+        <pathelement location="jars/java-client-2.1.0.jar"/>
+        <pathelement location="jars/jcommander-1.29.jar"/>
+        <pathelement location="jars/jetty-websocket-8.1.8.jar"/>
+        <pathelement location="jars/jna-3.4.0.jar"/>
+        <pathelement location="jars/jna-platform-3.4.0.jar"/>
+        <pathelement location="jars/junit-dep-4.11.jar"/>
+        <pathelement location="jars/log4j.jar"/>
+        <pathelement location="jars/mysql-connector-java-5.1.7-bin.jar"/>
+        <pathelement location="jars/nekohtml-1.9.21.jar"/>
+        <pathelement location="jars/netty-3.5.7.Final.jar"/>
+        <pathelement location="jars/operadriver-1.5.jar"/>
+        <pathelement location="jars/phantomjsdriver-1.2.1.jar"/>
+        <pathelement location="jars/poi-3.6-20091214.jar"/>
+        <pathelement location="jars/poi-ooxml-3.6-20091214.jar"/>
+        <pathelement location="jars/poi-ooxml-schemas-3.6-20091214.jar"/>
+        <pathelement location="jars/protobuf-java-2.4.1.jar"/>
+        <pathelement location="jars/sac-1.3.jar"/>
+        <pathelement location="jars/selenium-java-2.45.0-srcs.jar"/>
+        <pathelement location="jars/selenium-java-2.45.0.jar"/>
+        <pathelement location="jars/serializer-2.7.1.jar"/>
+        <pathelement location="jars/testng-6.8.5.jar"/>
+        <pathelement location="jars/xalan-2.7.1.jar"/>
+        <pathelement location="jars/xercesImpl-2.11.0.jar"/>
+        <pathelement location="jars/xml-apis-1.4.01.jar"/>
+        <pathelement location="jars/xmlbeans-2.3.0.jar"/>
+        <pathelement location="jars/extentreports-java-2.10.jar"/>
+        <pathelement location="jars/jsoup-1.8.3.jar"/>
+        <pathelement location="jars/sqlite-jdbc-3.8.11.1.jar"/>
+        <pathelement location="jars/java-client-3.1.0.jar"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+        <pathelement location="jars/mail-1.5.0-b01.jar"/>
+        <pathelement location="jars/android_modeled.jar.zip"/>
+        <pathelement location="jars/selenium-server-standalone-2.48.2.jar"/>
+        <pathelement location="jars/flash-selenium.jar"/>
+        <pathelement location="jars/extentmerge.jar"/>
+        <pathelement location="jars/extentreports-java-2.40.1.jar"/>
+        <pathelement location="jars/sikulixsetup-1.1.0.jar"/>
+        <pathelement location="jars/android-src.jar"/>
+        <pathelement location="jars/GenomeAnalysisTK.jar"/>
+        <pathelement location="jars/robotium-solo-4.3.1.jar"/>
+    </path>
+    <path id="run.Intial (1).classpath">
+        <path refid="vzcloud_android.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="target/classes"/>
+        <copy includeemptydirs="false" todir="target/classes">
+            <fileset dir="src">
+                <include name="**/*.java"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="target/classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="compile"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="target/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <include name="**/*.java"/>
+            <classpath refid="vzcloud_android.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target name="run">
+        <java classname="main.Intial" failonerror="true" fork="yes">
+            <classpath refid="run.Intial (1).classpath"/>
+        </java>
+    </target>
+</project>

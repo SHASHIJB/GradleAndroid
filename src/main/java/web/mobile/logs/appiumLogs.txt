@@ -1,0 +1,131 @@
+2016-07-15 12:51:48:808 - info: [Appium] Welcome to Appium v1.5.2
+2016-07-15 12:51:48:812 - info: [Appium] Non-default server args:
+2016-07-15 12:51:48:813 - info: [Appium]   address: '127.0.0.1'
+2016-07-15 12:51:48:813 - info: [Appium]   bootstrapPort: 4242
+2016-07-15 12:51:48:814 - info: [Appium]   log: '/Users/skjb0001/Documents/GradleAndroid/LearnGradle/src/main/java/web/mobile/logs/appiumLogs.txt'
+2016-07-15 12:51:48:814 - info: [Appium]   noReset: true
+2016-07-15 12:51:48:815 - warn: [Appium] Deprecated server args:
+2016-07-15 12:51:48:815 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2016-07-15 12:51:48:816 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2016-07-15 12:51:48:828 - info: [Appium]   noReset: true
+2016-07-15 12:51:48:910 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2016-07-15 12:51:54:306 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.vcast.mediamanager","appActivity":"com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity","newCommandTimeout":60,"platformName":"Android","version":"","deviceName":"Samsung-SM-G920V","platform":"ANDROID"}}
+2016-07-15 12:51:54:308 - info: [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.vcast.mediamanager","appActivity":"com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity","newCommandTimeout":60,"platformN...
+2016-07-15 12:51:54:312 - info: [Appium] Creating new AndroidDriver session
+2016-07-15 12:51:54:312 - info: [Appium] Capabilities:
+2016-07-15 12:51:54:313 - info: [Appium]   appPackage: 'com.vcast.mediamanager'
+2016-07-15 12:51:54:314 - info: [Appium]   appActivity: 'com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity'
+2016-07-15 12:51:54:314 - info: [Appium]   newCommandTimeout: 60
+2016-07-15 12:51:54:314 - info: [Appium]   platformName: 'Android'
+2016-07-15 12:51:54:314 - info: [Appium]   version: ''
+2016-07-15 12:51:54:315 - info: [Appium]   deviceName: 'Samsung-SM-G920V'
+2016-07-15 12:51:54:315 - info: [Appium]   platform: 'ANDROID'
+2016-07-15 12:51:54:316 - info: [Appium]   noReset: true
+2016-07-15 12:51:54:324 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: version, platform.
+2016-07-15 12:51:54:326 - info: [BaseDriver] Session created with session id: 4d0cfbc3-998a-4ca7-a8a7-b8abcaaa5bc8
+2016-07-15 12:51:54:328 - info: [debug] [AndroidDriver] Getting Java version
+2016-07-15 12:51:54:491 - info: [AndroidDriver] Java version is: 1.8.0_91
+2016-07-15 12:51:54:495 - info: [ADB] Checking whether adb is present
+2016-07-15 12:51:54:522 - info: [ADB] Using adb from /Users/skjb0001/Library/Android/sdk/platform-tools/adb
+2016-07-15 12:51:54:523 - info: [AndroidDriver] Retrieving device list
+2016-07-15 12:51:54:524 - info: [debug] [ADB] Trying to find a connected android device
+2016-07-15 12:51:54:525 - info: [debug] [ADB] Getting connected devices...
+2016-07-15 12:51:54:558 - info: [debug] [ADB] 1 device(s) connected
+2016-07-15 12:51:54:559 - info: [AndroidDriver] Using device: FA53XSV03248
+2016-07-15 12:51:54:560 - info: [ADB] Checking whether adb is present
+2016-07-15 12:51:54:564 - info: [ADB] Using adb from /Users/skjb0001/Library/Android/sdk/platform-tools/adb
+2016-07-15 12:51:54:564 - info: [debug] [ADB] Setting device id to FA53XSV03248
+2016-07-15 12:51:54:565 - info: [AndroidDriver] App file was not listed, instead we're going to run com.vcast.mediamanager directly on the device
+2016-07-15 12:51:54:565 - info: [debug] [AndroidDriver] Checking whether package is present on the device
+2016-07-15 12:51:54:566 - info: [debug] [ADB] Getting connected devices...
+2016-07-15 12:51:54:576 - info: [debug] [ADB] 1 device(s) connected
+2016-07-15 12:51:54:579 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","pm","list","packages","com.vcast.mediamanager"]
+2016-07-15 12:51:55:362 - info: [AndroidDriver] Starting Android session
+2016-07-15 12:51:55:364 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","wait-for-device"]
+2016-07-15 12:51:55:378 - info: [debug] [ADB] Getting connected devices...
+2016-07-15 12:51:55:389 - info: [debug] [ADB] 1 device(s) connected
+2016-07-15 12:51:55:389 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","echo","ping"]
+2016-07-15 12:51:55:424 - info: [debug] [Logcat] Starting logcat capture
+2016-07-15 12:51:55:459 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2016-07-15 12:51:55:461 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","install","/Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-android-driver/node_modules/io.appium.settings/bin/settings_apk-debug.apk"]
+2016-07-15 12:51:56:412 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2016-07-15 12:51:56:413 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","install","/Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-android-driver/node_modules/appium-unlock/bin/unlock_apk-debug.apk"]
+2016-07-15 12:51:57:199 - info: [ADB] Getting device platform version
+2016-07-15 12:51:57:200 - info: [debug] [ADB] Getting connected devices...
+2016-07-15 12:51:57:211 - info: [debug] [ADB] 1 device(s) connected
+2016-07-15 12:51:57:212 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","getprop","ro.build.version.release"]
+2016-07-15 12:51:57:247 - info: [debug] [ADB] Getting connected devices...
+2016-07-15 12:51:57:273 - info: [debug] [ADB] 1 device(s) connected
+2016-07-15 12:51:57:274 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","dumpsys","window"]
+2016-07-15 12:51:57:337 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2016-07-15 12:51:57:338 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2016-07-15 12:51:57:340 - info: [debug] [ADB] Forwarding system: 4242 to device: 4724
+2016-07-15 12:51:57:341 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","forward","tcp:4242","tcp:4724"]
+2016-07-15 12:51:57:345 - info: [debug] [UiAutomator] Starting UiAutomator
+2016-07-15 12:51:57:346 - info: [debug] [UiAutomator] Moving to state 'starting'
+2016-07-15 12:51:57:347 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2016-07-15 12:51:57:349 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2016-07-15 12:51:57:350 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","push","/Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-android-driver/node_modules/appium-android-bootstrap/bootstrap/bin/AppiumBootstrap.jar","/data/local/tmp/"]
+2016-07-15 12:51:57:409 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2016-07-15 12:51:57:410 - info: [debug] [ADB] Getting all processes with uiautomator
+2016-07-15 12:51:57:410 - info: [debug] [ADB] Getting connected devices...
+2016-07-15 12:51:57:423 - info: [debug] [ADB] 1 device(s) connected
+2016-07-15 12:51:57:424 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","ps","uiautomator"]
+2016-07-15 12:51:57:495 - info: [ADB] No uiautomator process found to kill, continuing...
+2016-07-15 12:51:57:495 - info: [debug] [UiAutomator] Starting UIAutomator
+2016-07-15 12:51:57:496 - info: [debug] [ADB] Creating ADB subprocess with args: -P, 5037, -s, FA53XSV03248, shell, uiautomator, runtest, AppiumBootstrap.jar, -c, io.appium.android.bootstrap.Bootstrap, -e, pkg, com.vcast.mediamanager, -e, disableAndroidWatchers, false, -e, acceptSslCerts, false
+2016-07-15 12:51:57:919 - info: [debug] [UiAutomator] Moving to state 'online'
+2016-07-15 12:51:57:922 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2016-07-15 12:51:57:924 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2016-07-15 12:51:57:926 - info: [debug] [ADB] Getting connected devices...
+2016-07-15 12:51:57:930 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2016-07-15 12:51:57:937 - info: [debug] [ADB] 1 device(s) connected
+2016-07-15 12:51:57:938 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","getprop","ro.build.version.sdk"]
+2016-07-15 12:51:57:970 - info: [debug] [ADB] Device API level: 21
+2016-07-15 12:51:57:972 - info: [debug] [ADB] Getting connected devices...
+2016-07-15 12:51:57:983 - info: [debug] [ADB] 1 device(s) connected
+2016-07-15 12:51:57:984 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","am","start","-n","com.vcast.mediamanager/com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2016-07-15 12:51:58:778 - info: [Appium] New AndroidDriver session created successfully, session 4d0cfbc3-998a-4ca7-a8a7-b8abcaaa5bc8 added to master session list
+2016-07-15 12:51:58:780 - info: [MJSONWP] Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":...
+2016-07-15 12:51:58:789 - info: [HTTP] <-- POST /wd/hub/session 200 4479 ms - 764 
+2016-07-15 12:52:58:779 - warn: [BaseDriver] Shutting down because we waited 60 seconds for a command
+2016-07-15 12:52:58:781 - info: [debug] [AndroidDriver] Shutting down Android driver
+2016-07-15 12:52:58:782 - warn: [Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+2016-07-15 12:52:58:783 - info: [Appium] Removing session 4d0cfbc3-998a-4ca7-a8a7-b8abcaaa5bc8 from our master session list
+2016-07-15 12:52:58:784 - info: [debug] [ADB] Getting connected devices...
+2016-07-15 12:52:58:802 - info: [debug] [ADB] 1 device(s) connected
+2016-07-15 12:52:58:803 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","am","force-stop","com.vcast.mediamanager"]
+2016-07-15 12:52:59:647 - info: [debug] [ADB] Pressing the HOME button
+2016-07-15 12:52:59:648 - info: [debug] [ADB] Getting connected devices...
+2016-07-15 12:52:59:663 - info: [debug] [ADB] 1 device(s) connected
+2016-07-15 12:52:59:666 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","input","keyevent",3]
+2016-07-15 12:53:00:380 - info: [debug] [Logcat] Stopping logcat capture
+2016-07-15 12:53:00:387 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2016-07-15 12:53:00:393 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2016-07-15 12:53:00:394 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2016-07-15 12:53:00:395 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-15 12:53:00:397 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2016-07-15 12:53:00:398 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2016-07-15 12:53:00:400 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2016-07-15 12:53:00:401 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2016-07-15 12:53:00:401 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2016-07-15 12:53:00:402 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2016-07-15 12:53:00:402 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2016-07-15 12:53:00:403 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2016-07-15 12:53:00:404 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2016-07-15 12:53:00:405 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2016-07-15 12:53:00:405 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2016-07-15 12:53:00:406 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+2016-07-15 12:53:00:406 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+2016-07-15 12:53:00:407 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] Time: 62.5
+2016-07-15 12:53:00:407 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+2016-07-15 12:53:00:408 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+2016-07-15 12:53:00:410 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2016-07-15 12:53:00:410 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2016-07-15 12:53:00:411 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2016-07-15 12:53:00:412 - info: [debug] [ADB] Getting all processes with uiautomator
+2016-07-15 12:53:00:413 - info: [debug] [ADB] Getting connected devices...
+2016-07-15 12:53:00:432 - info: [debug] [ADB] 1 device(s) connected
+2016-07-15 12:53:00:432 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","ps","uiautomator"]
+2016-07-15 12:53:00:482 - info: [ADB] No uiautomator process found to kill, continuing...
+2016-07-15 12:53:00:482 - info: [debug] [UiAutomator] Moving to state 'stopped'

@@ -1,0 +1,115 @@
+03/08/2016 10:32:42 devpinoyLogger Test Suite not Executed- TestDataGenerator
+03/08/2016 10:32:42 devpinoyLogger Executing Test Suite - VerifyConnections
+03/08/2016 10:32:42 devpinoyLogger Started Test Case :-> VerifyCommCloudViewNav and RunMode is Y
+03/08/2016 10:32:42 devpinoyLogger Iteration Number 1 Started.
+03/08/2016 10:32:42 devpinoyLogger Running Keyword is : openApp
+03/08/2016 10:33:10 devpinoyLogger Take adb logcat and store it in the system 
+03/08/2016 10:33:11 devpinoyLogger Pass
+03/08/2016 10:33:11 devpinoyLogger Running Keyword is : synchronize
+03/08/2016 10:33:11 devpinoyLogger Waiting for page to load
+03/08/2016 10:33:16 devpinoyLogger Pass
+03/08/2016 10:33:16 devpinoyLogger Running Keyword is : clickLink
+03/08/2016 10:33:16 devpinoyLogger clicking the link
+03/08/2016 10:33:16 devpinoyLogger Executing Keyword = clickLink
+03/08/2016 10:33:16 devpinoyLogger object value is  ->> //android.widget.ImageButton[@content-desc='Navigate up']
+03/08/2016 10:33:16 devpinoyLogger Input parameter ::-> null
+03/08/2016 10:33:20 devpinoyLogger Pass
+03/08/2016 10:33:20 devpinoyLogger Running Keyword is : clickLink
+03/08/2016 10:33:20 devpinoyLogger clicking the link
+03/08/2016 10:33:20 devpinoyLogger Executing Keyword = clickLink
+03/08/2016 10:33:20 devpinoyLogger object value is  ->> //android.widget.TextView[@index=5]
+03/08/2016 10:33:20 devpinoyLogger Input parameter ::-> null
+03/08/2016 10:33:20 devpinoyLogger FailAn element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 88 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'MacBook-Pro-4.local', ip: '10.11.20.145', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.vcast.mediamanager, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=, deviceName=05157df5b2f0ac09, platform=ANDROID, appActivity=com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity, desired={appPackage=com.vcast.mediamanager, appActivity=com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity, platformName=Android, version=, deviceName=Samsung-SM-G920V, platform=ANDROID}, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 84441b6a-2834-4cc9-b841-2a078e09d24e
+*** Element info: {Using=xpath, value=//android.widget.TextView[@index=5]}
+03/08/2016 10:33:21 devpinoyLogger Screenshot Target File for Fail is - /Users/jsah0003/Desktop/Synchronoss/vzcloud_android/VZCloud/screenshots/03_08_2016/VerifyCommCloudViewNav_TS6_1_2016_03_08_10_33_20_Fail.jpg
+03/08/2016 10:33:21 devpinoyLogger Running Keyword is : synchronize
+03/08/2016 10:33:21 devpinoyLogger Waiting for page to load
+03/08/2016 10:33:26 devpinoyLogger Pass
+03/08/2016 10:33:26 devpinoyLogger Running Keyword is : verifypresent
+03/08/2016 10:33:26 devpinoyLogger Verifying Element is present.
+03/08/2016 10:33:26 devpinoyLogger Pass
+03/08/2016 10:33:26 devpinoyLogger Running Keyword is : clickLink_name
+03/08/2016 10:33:27 devpinoyLogger clicking the link
+03/08/2016 10:33:27 devpinoyLogger Executing Keyword = clickLink_name
+03/08/2016 10:33:27 devpinoyLogger object value is  ->> Calls
+03/08/2016 10:33:27 devpinoyLogger Input parameter ::-> null
+03/08/2016 10:33:27 devpinoyLogger Pass
+03/08/2016 10:33:27 devpinoyLogger Running Keyword is : synchronize
+03/08/2016 10:33:27 devpinoyLogger Waiting for page to load
+03/08/2016 10:33:32 devpinoyLogger Pass
+03/08/2016 10:33:32 devpinoyLogger Running Keyword is : verifypresent
+03/08/2016 10:33:32 devpinoyLogger Verifying Element is present.
+03/08/2016 10:33:32 devpinoyLogger Pass
+03/08/2016 10:33:32 devpinoyLogger Running Keyword is : clickLink_name
+03/08/2016 10:33:32 devpinoyLogger clicking the link
+03/08/2016 10:33:32 devpinoyLogger Executing Keyword = clickLink_name
+03/08/2016 10:33:32 devpinoyLogger object value is  ->> View Calls
+03/08/2016 10:33:32 devpinoyLogger Input parameter ::-> null
+03/08/2016 10:33:33 devpinoyLogger Pass
+03/08/2016 10:33:33 devpinoyLogger Running Keyword is : synchronize
+03/08/2016 10:33:33 devpinoyLogger Waiting for page to load
+03/08/2016 10:33:38 devpinoyLogger Pass
+03/08/2016 10:33:38 devpinoyLogger Running Keyword is : verifypresent
+03/08/2016 10:33:38 devpinoyLogger Verifying Element is present.
+03/08/2016 10:33:38 devpinoyLogger Fail -- Element not present on page.Cannot find elements when the XPath expression is null.
+03/08/2016 10:33:38 devpinoyLogger Screenshot Target File for Fail is - /Users/jsah0003/Desktop/Synchronoss/vzcloud_android/VZCloud/screenshots/03_08_2016/VerifyCommCloudViewNav_TS14_1_2016_03_08_10_33_38_Fail.jpg
+03/08/2016 10:33:38 devpinoyLogger Running Keyword is : clickPhoneBackBtn
+03/08/2016 10:33:40 devpinoyLogger Tap the phone's Back button
+03/08/2016 10:33:40 devpinoyLogger Pass
+03/08/2016 10:33:40 devpinoyLogger Running Keyword is : clickLink_name
+03/08/2016 10:33:40 devpinoyLogger clicking the link
+03/08/2016 10:33:40 devpinoyLogger Executing Keyword = clickLink_name
+03/08/2016 10:33:40 devpinoyLogger object value is  ->> Messages
+03/08/2016 10:33:40 devpinoyLogger Input parameter ::-> null
+03/08/2016 10:33:40 devpinoyLogger Pass
+03/08/2016 10:33:40 devpinoyLogger Running Keyword is : verifypresent
+03/08/2016 10:33:40 devpinoyLogger Verifying Element is present.
+03/08/2016 10:33:41 devpinoyLogger Pass
+03/08/2016 10:33:41 devpinoyLogger Running Keyword is : synchronize
+03/08/2016 10:33:41 devpinoyLogger Waiting for page to load
+03/08/2016 10:33:46 devpinoyLogger Pass
+03/08/2016 10:33:46 devpinoyLogger Running Keyword is : clickLink_name
+03/08/2016 10:33:46 devpinoyLogger clicking the link
+03/08/2016 10:33:46 devpinoyLogger Executing Keyword = clickLink_name
+03/08/2016 10:33:46 devpinoyLogger object value is  ->> View Messages
+03/08/2016 10:33:46 devpinoyLogger Input parameter ::-> null
+03/08/2016 10:33:46 devpinoyLogger Pass
+03/08/2016 10:33:46 devpinoyLogger Running Keyword is : synchronize
+03/08/2016 10:33:46 devpinoyLogger Waiting for page to load
+03/08/2016 10:33:51 devpinoyLogger Pass
+03/08/2016 10:33:51 devpinoyLogger Running Keyword is : clickPhoneBackBtn
+03/08/2016 10:33:52 devpinoyLogger Tap the phone's Back button
+03/08/2016 10:33:52 devpinoyLogger Pass
+03/08/2016 10:33:52 devpinoyLogger Running Keyword is : closeApp
+03/08/2016 10:33:52 devpinoyLogger closing the browser
+03/08/2016 10:33:52 devpinoyLogger Executing Keyword = closeApp
+03/08/2016 10:33:52 devpinoyLogger object vaue is  ->> null
+03/08/2016 10:33:53 devpinoyLogger Pass
+03/08/2016 10:33:53 devpinoyLogger Ended Test Case :-> 
+03/08/2016 10:33:53 devpinoyLogger Started Test Case :-> VerifyAddContactAsFavorite and RunMode is N
+03/08/2016 10:33:53 devpinoyLogger Ended Test Case :-> 
+03/08/2016 10:33:53 devpinoyLogger Started Test Case :-> VerifyContactsBackUpNow and RunMode is N
+03/08/2016 10:33:53 devpinoyLogger Ended Test Case :-> 
+03/08/2016 10:33:53 devpinoyLogger Started Test Case :-> VerifyContactsHelp and RunMode is N
+03/08/2016 10:33:53 devpinoyLogger Ended Test Case :-> 
+03/08/2016 10:33:53 devpinoyLogger Started Test Case :-> VerifyContactsSort and RunMode is N
+03/08/2016 10:33:53 devpinoyLogger Ended Test Case :-> 
+03/08/2016 10:33:53 devpinoyLogger Started Test Case :-> VerifyRecentContactsNav and RunMode is N
+03/08/2016 10:33:53 devpinoyLogger Ended Test Case :-> 
+03/08/2016 10:33:53 devpinoyLogger Completed Test Suite - VerifyConnections
+03/08/2016 10:33:53 devpinoyLogger Test Suite not Executed- verifyHomeScreen
+03/08/2016 10:33:53 devpinoyLogger Test Suite not Executed- verifyPhotos&Videos
+03/08/2016 10:33:53 devpinoyLogger Test Suite not Executed- verifyMusic
+03/08/2016 10:33:53 devpinoyLogger Test Suite not Executed- verifyDocuments
+03/08/2016 10:33:53 devpinoyLogger Test Suite not Executed- verifySettings
+03/08/2016 10:33:53 devpinoyLogger Test Suite not Executed- verifyTools
+03/08/2016 10:33:53 devpinoyLogger Test Suite not Executed- VerifyAllFiles
+03/08/2016 10:33:53 devpinoyLogger Test Suite not Executed- VerifyLogin
+03/08/2016 10:33:53 devpinoyLogger Test Suite not Executed- verifyPhotosBucket

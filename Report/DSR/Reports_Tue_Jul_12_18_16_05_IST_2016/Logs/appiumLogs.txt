@@ -1,0 +1,351 @@
+2016-07-12 11:48:34:442 - info: [Appium] Welcome to Appium v1.5.2
+2016-07-12 11:48:34:445 - info: [Appium] Non-default server args:
+2016-07-12 11:48:34:446 - info: [Appium]   address: '127.0.0.1'
+2016-07-12 11:48:34:447 - info: [Appium]   bootstrapPort: 4242
+2016-07-12 11:48:34:447 - info: [Appium]   log: '/Users/skjb0001/Documents/Gradle_converted/LearnGradle/src/main/java/web/mobile/logs/appiumLogs.txt'
+2016-07-12 11:48:34:447 - info: [Appium]   noReset: true
+2016-07-12 11:48:34:448 - warn: [Appium] Deprecated server args:
+2016-07-12 11:48:34:448 - warn: [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2016-07-12 11:48:34:449 - info: [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2016-07-12 11:48:34:461 - info: [Appium]   noReset: true
+2016-07-12 11:48:34:541 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2016-07-12 11:48:39:606 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.vcast.mediamanager","appActivity":"com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity","platformName":"Android","version":"","deviceName":"Samsung-SM-G920V","platform":"ANDROID"}}
+2016-07-12 11:48:39:609 - info: [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.vcast.mediamanager","appActivity":"com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity","platformName":"Android","version...
+2016-07-12 11:48:39:615 - info: [Appium] Creating new AndroidDriver session
+2016-07-12 11:48:39:616 - info: [Appium] Capabilities:
+2016-07-12 11:48:39:616 - info: [Appium]   appPackage: 'com.vcast.mediamanager'
+2016-07-12 11:48:39:617 - info: [Appium]   appActivity: 'com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity'
+2016-07-12 11:48:39:617 - info: [Appium]   platformName: 'Android'
+2016-07-12 11:48:39:618 - info: [Appium]   version: ''
+2016-07-12 11:48:39:618 - info: [Appium]   deviceName: 'Samsung-SM-G920V'
+2016-07-12 11:48:39:618 - info: [Appium]   platform: 'ANDROID'
+2016-07-12 11:48:39:619 - info: [Appium]   noReset: true
+2016-07-12 11:48:39:627 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: version, platform.
+2016-07-12 11:48:39:629 - info: [BaseDriver] Session created with session id: 86044122-da99-4e89-b576-7bf37cb08623
+2016-07-12 11:48:39:632 - info: [debug] [AndroidDriver] Getting Java version
+2016-07-12 11:48:39:851 - info: [AndroidDriver] Java version is: 1.8.0_91
+2016-07-12 11:48:39:855 - info: [ADB] Checking whether adb is present
+2016-07-12 11:48:39:919 - info: [ADB] Using adb from /Users/skjb0001/Library/Android/sdk/platform-tools/adb
+2016-07-12 11:48:39:920 - info: [AndroidDriver] Retrieving device list
+2016-07-12 11:48:39:920 - info: [debug] [ADB] Trying to find a connected android device
+2016-07-12 11:48:39:921 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:48:39:994 - info: [debug] [ADB] 0 device(s) connected
+2016-07-12 11:48:39:994 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2016-07-12 11:48:39:995 - info: [debug] [ADB] Restarting adb
+2016-07-12 11:48:40:228 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:48:43:365 - info: [debug] [ADB] 0 device(s) connected
+2016-07-12 11:48:43:366 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2016-07-12 11:48:43:366 - info: [debug] [ADB] Restarting adb
+2016-07-12 11:48:43:582 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:48:46:613 - info: [debug] [ADB] 0 device(s) connected
+2016-07-12 11:48:46:614 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2016-07-12 11:48:46:615 - info: [debug] [ADB] Restarting adb
+2016-07-12 11:48:46:834 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:48:49:863 - info: [debug] [ADB] 0 device(s) connected
+2016-07-12 11:48:49:864 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2016-07-12 11:48:49:864 - info: [debug] [ADB] Restarting adb
+2016-07-12 11:48:50:080 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:48:53:111 - info: [debug] [ADB] 0 device(s) connected
+2016-07-12 11:48:53:112 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2016-07-12 11:48:53:112 - info: [debug] [ADB] Restarting adb
+2016-07-12 11:48:53:401 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:48:56:452 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 11:48:56:468 - info: [AndroidDriver] Using device: FA53XSV03248
+2016-07-12 11:48:56:470 - info: [ADB] Checking whether adb is present
+2016-07-12 11:48:56:472 - info: [ADB] Using adb from /Users/skjb0001/Library/Android/sdk/platform-tools/adb
+2016-07-12 11:48:56:473 - info: [debug] [ADB] Setting device id to FA53XSV03248
+2016-07-12 11:48:56:474 - info: [AndroidDriver] App file was not listed, instead we're going to run com.vcast.mediamanager directly on the device
+2016-07-12 11:48:56:475 - info: [debug] [AndroidDriver] Checking whether package is present on the device
+2016-07-12 11:48:56:476 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:48:56:486 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 11:48:56:491 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","pm","list","packages","com.vcast.mediamanager"]
+2016-07-12 11:48:57:433 - info: [AndroidDriver] Starting Android session
+2016-07-12 11:48:57:435 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","wait-for-device"]
+2016-07-12 11:48:57:448 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:48:57:489 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 11:48:57:490 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","echo","ping"]
+2016-07-12 11:48:57:512 - info: [debug] [Logcat] Starting logcat capture
+2016-07-12 11:48:57:537 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2016-07-12 11:48:57:539 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","install","/Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-android-driver/node_modules/io.appium.settings/bin/settings_apk-debug.apk"]
+2016-07-12 11:48:58:768 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2016-07-12 11:48:58:769 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","install","/Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-android-driver/node_modules/appium-unlock/bin/unlock_apk-debug.apk"]
+2016-07-12 11:48:59:528 - info: [ADB] Getting device platform version
+2016-07-12 11:48:59:529 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:48:59:605 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 11:48:59:606 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","getprop","ro.build.version.release"]
+2016-07-12 11:48:59:653 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:48:59:667 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 11:48:59:668 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","dumpsys","window"]
+2016-07-12 11:48:59:742 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2016-07-12 11:48:59:743 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2016-07-12 11:48:59:745 - info: [debug] [ADB] Forwarding system: 4242 to device: 4724
+2016-07-12 11:48:59:745 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","forward","tcp:4242","tcp:4724"]
+2016-07-12 11:48:59:750 - info: [debug] [UiAutomator] Starting UiAutomator
+2016-07-12 11:48:59:751 - info: [debug] [UiAutomator] Moving to state 'starting'
+2016-07-12 11:48:59:751 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2016-07-12 11:48:59:753 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2016-07-12 11:48:59:754 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","push","/Applications/Appium.app/Contents/Resources/node_modules/appium/node_modules/appium-android-driver/node_modules/appium-android-bootstrap/bootstrap/bin/AppiumBootstrap.jar","/data/local/tmp/"]
+2016-07-12 11:48:59:823 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2016-07-12 11:48:59:824 - info: [debug] [ADB] Getting all processes with uiautomator
+2016-07-12 11:48:59:825 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:48:59:847 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 11:48:59:849 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","ps","uiautomator"]
+2016-07-12 11:48:59:923 - info: [ADB] No uiautomator process found to kill, continuing...
+2016-07-12 11:48:59:923 - info: [debug] [UiAutomator] Starting UIAutomator
+2016-07-12 11:48:59:924 - info: [debug] [ADB] Creating ADB subprocess with args: -P, 5037, -s, FA53XSV03248, shell, uiautomator, runtest, AppiumBootstrap.jar, -c, io.appium.android.bootstrap.Bootstrap, -e, pkg, com.vcast.mediamanager, -e, disableAndroidWatchers, false, -e, acceptSslCerts, false
+2016-07-12 11:49:00:706 - info: [debug] [UiAutomator] Moving to state 'online'
+2016-07-12 11:49:00:709 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2016-07-12 11:49:00:710 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2016-07-12 11:49:00:712 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:49:00:717 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2016-07-12 11:49:00:744 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 11:49:00:745 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","getprop","ro.build.version.sdk"]
+2016-07-12 11:49:00:770 - info: [debug] [ADB] Device API level: 21
+2016-07-12 11:49:00:771 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 11:49:00:781 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 11:49:00:782 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","am","start","-n","com.vcast.mediamanager/com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2016-07-12 11:49:01:898 - info: [Appium] New AndroidDriver session created successfully, session 86044122-da99-4e89-b576-7bf37cb08623 added to master session list
+2016-07-12 11:49:01:900 - info: [MJSONWP] Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":...
+2016-07-12 11:49:01:908 - info: [HTTP] <-- POST /wd/hub/session 200 22299 ms - 718 
+2016-07-12 11:49:01:956 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/log {"type":"logcat"}
+2016-07-12 11:49:01:972 - info: [MJSONWP] Calling AppiumDriver.getLog() with args: ["logcat","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:02:059 - info: [MJSONWP] Responding to client with driver.getLog() result: [{"timestamp":1468324137536,"level":"ALL","message":"--------- beginning of system"},{"timestamp":1468324137543,"level":"ALL","message":"07-12 04:0...
+2016-07-12 11:49:02:424 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/log 200 467 ms - 6885386 
+2016-07-12 11:49:10:347 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:10:349 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:10:351 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:10:355 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:10:365 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:10:411 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:10:412 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:10:438 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:10:761 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-07-12 11:49:10:765 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:10:803 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2016-07-12 11:49:10:804 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:10:808 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-12 11:49:10:812 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements 200 464 ms - 74 
+2016-07-12 11:49:12:825 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:12:826 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:12:828 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:12:829 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:12:836 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:12:838 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:12:838 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:12:838 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:12:865 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-07-12 11:49:12:866 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:12:891 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2016-07-12 11:49:12:892 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:12:893 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-12 11:49:12:895 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements 200 69 ms - 74 
+2016-07-12 11:49:14:904 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:14:905 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:14:906 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:14:907 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:14:912 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:14:913 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:14:913 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:14:913 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:14:965 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-07-12 11:49:14:965 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:14:990 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2016-07-12 11:49:14:994 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:14:996 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-12 11:49:14:998 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements 200 93 ms - 74 
+2016-07-12 11:49:17:005 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:17:005 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:17:014 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:17:014 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:17:021 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:17:021 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:17:022 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:17:022 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:17:060 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-07-12 11:49:17:062 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:17:088 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2016-07-12 11:49:17:089 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:17:091 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-12 11:49:17:092 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements 200 87 ms - 74 
+2016-07-12 11:49:19:105 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:19:106 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:19:108 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:19:109 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:19:123 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:19:124 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:19:124 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:19:124 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:19:149 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-07-12 11:49:19:150 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:19:181 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2016-07-12 11:49:19:181 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:19:184 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-12 11:49:19:185 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements 200 80 ms - 74 
+2016-07-12 11:49:21:193 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:21:194 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:21:195 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:21:196 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:21:199 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:21:199 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:21:200 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:21:200 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:21:237 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-07-12 11:49:21:237 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:21:272 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2016-07-12 11:49:21:273 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:21:274 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-12 11:49:21:277 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements 200 82 ms - 74 
+2016-07-12 11:49:23:287 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:23:288 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:23:289 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:23:290 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:23:292 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:23:293 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:23:293 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:23:297 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:23:331 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-07-12 11:49:23:332 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:23:362 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2016-07-12 11:49:23:363 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:23:364 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-12 11:49:23:365 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements 200 77 ms - 74 
+2016-07-12 11:49:25:381 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:25:382 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:25:383 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:25:383 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:25:386 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:25:387 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:25:387 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:25:387 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:25:418 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-07-12 11:49:25:419 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:25:450 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2016-07-12 11:49:25:453 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:25:455 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-12 11:49:25:457 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements 200 76 ms - 74 
+2016-07-12 11:49:27:498 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:27:499 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:27:500 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:27:502 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:27:505 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:27:505 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:27:506 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:27:507 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:27:540 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-07-12 11:49:27:540 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:27:566 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2016-07-12 11:49:27:567 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:27:568 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-12 11:49:27:569 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements 200 105 ms - 74 
+2016-07-12 11:49:29:576 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:29:577 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:29:578 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:29:578 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:29:581 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:29:582 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:29:582 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:29:584 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:29:620 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-07-12 11:49:29:623 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:29:652 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2016-07-12 11:49:29:652 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:29:654 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-12 11:49:29:655 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements 200 79 ms - 74 
+2016-07-12 11:49:31:664 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:31:664 - info: [MJSONWP] Calling AppiumDriver.findElements() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:31:665 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:31:667 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:31:669 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":true}}
+2016-07-12 11:49:31:669 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:31:670 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:31:675 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:31:713 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2016-07-12 11:49:31:714 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: true
+2016-07-12 11:49:31:744 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+2016-07-12 11:49:31:745 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:31:746 - info: [MJSONWP] Responding to client with driver.findElements() result: []
+2016-07-12 11:49:31:747 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/elements 200 83 ms - 74 
+2016-07-12 11:49:33:803 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/element {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:33:804 - info: [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:33:805 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:33:805 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}}
+2016-07-12 11:49:33:812 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}}
+2016-07-12 11:49:33:812 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:33:812 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:33:813 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: false
+2016-07-12 11:49:33:847 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-07-12 11:49:33:847 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:33:852 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/element 500 49 ms - 164 
+2016-07-12 11:49:33:859 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/element {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:33:859 - info: [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:33:860 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:33:860 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}}
+2016-07-12 11:49:33:863 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}}
+2016-07-12 11:49:33:863 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:33:863 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:33:864 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: false
+2016-07-12 11:49:33:891 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-07-12 11:49:33:892 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:33:894 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/element 500 35 ms - 164 
+2016-07-12 11:49:33:898 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/element {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-07-12 11:49:33:899 - info: [MJSONWP] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.ImageButton[@content-desc='Navigate up']","86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 11:49:33:900 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 11:49:33:900 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}}
+2016-07-12 11:49:33:902 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}}
+2016-07-12 11:49:33:902 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2016-07-12 11:49:33:903 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2016-07-12 11:49:33:903 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.ImageButton[@content-desc='Navigate up']' using 'XPATH' with the contextId: '' multiple: false
+2016-07-12 11:49:33:961 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-07-12 11:49:33:961 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 11:49:33:963 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/element 500 64 ms - 164 
+2016-07-12 12:45:42:362 - info: [HTTP] --> GET /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/screenshot {}
+2016-07-12 12:45:42:364 - info: [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 12:45:42:366 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 12:45:42:645 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 12:45:42:645 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","/system/bin/rm","/data/local/tmp/screenshot.png;","/system/bin/screencap","-p","/data/local/tmp/screenshot.png"]
+2016-07-12 12:45:43:583 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","pull","/data/local/tmp/screenshot.png","/var/folders/j2/mcyq11ks563427dkgbdr1ys44_jltw/T/appium116612-3356-1wl7u89.png"]
+2016-07-12 12:45:44:058 - info: [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs2EENACAQwLAD/55BBA+ypFWw99bMnAEAAAAI278DAAAAAF4ZHAAAAECewQEAAADkGR...
+2016-07-12 12:45:44:063 - info: [HTTP] <-- GET /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/screenshot 200 1700 ms - 16730 
+2016-07-12 12:45:54:447 - info: [HTTP] --> POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/element {"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains(\"Help\").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Help\").instance(0));"}
+2016-07-12 12:45:54:448 - info: [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains(\"Help...
+2016-07-12 12:45:54:449 - info: [debug] [BaseDriver] Waiting up to 0 ms for condition
+2016-07-12 12:45:54:450 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().descriptionContains(\"Help\").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Help\").instance(0));","context":"","multiple":false}}
+2016-07-12 12:45:56:398 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 12:45:56:401 - info: [HTTP] <-- POST /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/element 500 1954 ms - 164 
+2016-07-12 12:45:56:444 - info: [HTTP] --> GET /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/screenshot {}
+2016-07-12 12:45:56:445 - info: [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 12:45:56:446 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 12:45:56:496 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 12:45:56:497 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","/system/bin/rm","/data/local/tmp/screenshot.png;","/system/bin/screencap","-p","/data/local/tmp/screenshot.png"]
+2016-07-12 12:45:57:264 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","pull","/data/local/tmp/screenshot.png","/var/folders/j2/mcyq11ks563427dkgbdr1ys44_jltw/T/appium116612-3356-l3a5ij.png"]
+2016-07-12 12:45:57:285 - info: [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs2EENACAQwLAD/55BBA+ypFWw99bMnAEAAAAI278DAAAAAF4ZHAAAAECewQEAAADkGR...
+2016-07-12 12:45:57:287 - info: [HTTP] <-- GET /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623/screenshot 200 842 ms - 16730 
+2016-07-12 12:46:02:704 - info: [HTTP] --> DELETE /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623 {}
+2016-07-12 12:46:02:705 - info: [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["86044122-da99-4e89-b576-7bf37cb08623"]
+2016-07-12 12:46:02:707 - info: [debug] [AndroidDriver] Shutting down Android driver
+2016-07-12 12:46:02:709 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 12:46:02:751 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 12:46:02:752 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","am","force-stop","com.vcast.mediamanager"]
+2016-07-12 12:46:03:786 - info: [debug] [ADB] Pressing the HOME button
+2016-07-12 12:46:03:787 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 12:46:03:801 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 12:46:03:801 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","input","keyevent",3]
+2016-07-12 12:46:04:424 - info: [debug] [Logcat] Stopping logcat capture
+2016-07-12 12:46:04:430 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2016-07-12 12:46:04:436 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2016-07-12 12:46:04:437 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2016-07-12 12:46:04:438 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2016-07-12 12:46:04:440 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2016-07-12 12:46:04:441 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2016-07-12 12:46:04:442 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2016-07-12 12:46:04:442 - info: [debug] [ADB] Getting all processes with uiautomator
+2016-07-12 12:46:04:443 - info: [debug] [ADB] Getting connected devices...
+2016-07-12 12:46:04:458 - info: [debug] [ADB] 1 device(s) connected
+2016-07-12 12:46:04:460 - info: [debug] [ADB] Running /Users/skjb0001/Library/Android/sdk/platform-tools/adb with args: ["-P",5037,"-s","FA53XSV03248","shell","ps","uiautomator"]
+2016-07-12 12:46:04:531 - info: [ADB] No uiautomator process found to kill, continuing...
+2016-07-12 12:46:04:533 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2016-07-12 12:46:04:533 - info: [Appium] Removing session 86044122-da99-4e89-b576-7bf37cb08623 from our master session list
+2016-07-12 12:46:04:534 - info: [debug] [MJSONWP] Received response: null
+2016-07-12 12:46:04:534 - info: [debug] [MJSONWP] But deleting session, so not returning
+2016-07-12 12:46:04:534 - info: [MJSONWP] Responding to client with driver.deleteSession() result: null
+2016-07-12 12:46:04:611 - info: [HTTP] <-- DELETE /wd/hub/session/86044122-da99-4e89-b576-7bf37cb08623 200 1905 ms - 76 

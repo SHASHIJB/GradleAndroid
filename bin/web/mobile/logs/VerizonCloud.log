@@ -1,0 +1,210 @@
+04/20/2016 09:59:29 devpinoyLogger Test Suite not Executed- VerifyConnections
+04/20/2016 09:59:29 devpinoyLogger Test Suite not Executed- verifyHomeScreen
+04/20/2016 09:59:29 devpinoyLogger Test Suite not Executed- verifyPhotos&Videos
+04/20/2016 09:59:29 devpinoyLogger Test Suite not Executed- verifyMusic
+04/20/2016 09:59:29 devpinoyLogger Test Suite not Executed- verifyDocuments
+04/20/2016 09:59:29 devpinoyLogger Executing Test Suite - verifySettings
+04/20/2016 09:59:29 devpinoyLogger Started Test Case :-> VerifySettings_EmailAddress and RunMode is Y
+04/20/2016 09:59:29 devpinoyLogger Iteration Number 1 Started.
+04/20/2016 09:59:29 devpinoyLogger Running Keyword is : openApp
+04/20/2016 09:59:55 devpinoyLogger Take adb logcat and store it in the system 
+04/20/2016 09:59:56 devpinoyLogger Pass
+04/20/2016 09:59:56 devpinoyLogger Running Keyword is : synchronize
+04/20/2016 09:59:56 devpinoyLogger Waiting for page to load
+04/20/2016 10:00:01 devpinoyLogger Pass
+04/20/2016 10:00:01 devpinoyLogger Running Keyword is : clickLink
+04/20/2016 10:00:02 devpinoyLogger clicking the link
+04/20/2016 10:00:02 devpinoyLogger Executing Keyword = clickLink
+04/20/2016 10:00:02 devpinoyLogger object value is  ->> //android.widget.ImageButton[@content-desc='Navigate up']
+04/20/2016 10:00:02 devpinoyLogger Input parameter ::-> null
+04/20/2016 10:00:02 devpinoyLogger Pass
+04/20/2016 10:00:02 devpinoyLogger Running Keyword is : synchronize
+04/20/2016 10:00:02 devpinoyLogger Waiting for page to load
+04/20/2016 10:00:07 devpinoyLogger Pass
+04/20/2016 10:00:07 devpinoyLogger Running Keyword is : clickLink_name
+04/20/2016 10:00:07 devpinoyLogger clicking the link
+04/20/2016 10:00:07 devpinoyLogger Executing Keyword = clickLink_name
+04/20/2016 10:00:07 devpinoyLogger object value is  ->> Home
+04/20/2016 10:00:07 devpinoyLogger Input parameter ::-> null
+04/20/2016 10:00:07 devpinoyLogger Pass
+04/20/2016 10:00:07 devpinoyLogger Running Keyword is : synchronize
+04/20/2016 10:00:07 devpinoyLogger Waiting for page to load
+04/20/2016 10:00:12 devpinoyLogger Pass
+04/20/2016 10:00:12 devpinoyLogger Running Keyword is : clickLink
+04/20/2016 10:00:12 devpinoyLogger clicking the link
+04/20/2016 10:00:12 devpinoyLogger Executing Keyword = clickLink
+04/20/2016 10:00:12 devpinoyLogger object value is  ->> //android.widget.ImageButton[@content-desc='Navigate up']
+04/20/2016 10:00:12 devpinoyLogger Input parameter ::-> null
+04/20/2016 10:00:13 devpinoyLogger Pass
+04/20/2016 10:00:13 devpinoyLogger Running Keyword is : clickLink_Scroll
+04/20/2016 10:00:13 devpinoyLogger clicking the link
+04/20/2016 10:00:13 devpinoyLogger Executing Keyword = clickLink_Scroll
+04/20/2016 10:00:13 devpinoyLogger object value is  ->> //android.widget.TextView[@text='Settings']
+04/20/2016 10:00:13 devpinoyLogger Input parameter ::-> null
+04/20/2016 10:00:17 devpinoyLogger Waiting for page to load
+04/20/2016 10:00:23 devpinoyLogger Pass
+04/20/2016 10:00:23 devpinoyLogger Running Keyword is : synchronize
+04/20/2016 10:00:23 devpinoyLogger Waiting for page to load
+04/20/2016 10:00:28 devpinoyLogger Pass
+04/20/2016 10:00:28 devpinoyLogger Running Keyword is : verifypresent
+04/20/2016 10:00:28 devpinoyLogger Verifying Element is present.
+04/20/2016 10:00:28 devpinoyLogger Pass
+04/20/2016 10:00:28 devpinoyLogger Running Keyword is : ValidateLocalyticsTag
+04/20/2016 10:00:28 devpinoyLogger Validate localytics tags are getting fired a s expected
+04/20/2016 10:00:28 devpinoyLogger 
+04/20/2016 10:00:28 devpinoyLogger [2016-04-20T09:59:31-0400] [ALL] D/ClientAnalytics(22681): [1]	 tagEvent : eventName = App Launch, params {Source=direct, Network Type=WIFI}
+[2016-04-20T09:59:31-0400] [ALL] D/ClientAnalytics(22681): [9858]	 tagScreen : pageName = All Documents
+[2016-04-20T09:59:31-0400] [ALL] D/ClientAnalytics(22681): [9858]	 tagScreen : pageName = Contacts
+[2016-04-20T09:59:31-0400] [ALL] D/ClientAnalytics(22681): [9858]	 tagScreen : pageName = Call Logs
+
+04/20/2016 10:00:28 devpinoyLogger Pass
+04/20/2016 10:00:28 devpinoyLogger Running Keyword is : clickLink
+04/20/2016 10:00:28 devpinoyLogger clicking the link
+04/20/2016 10:00:28 devpinoyLogger Executing Keyword = clickLink
+04/20/2016 10:00:28 devpinoyLogger object value is  ->> //android.widget.TextView[@text='Email Address']
+04/20/2016 10:00:28 devpinoyLogger Input parameter ::-> null
+04/20/2016 10:00:29 devpinoyLogger Pass
+04/20/2016 10:00:29 devpinoyLogger Running Keyword is : verifypresent
+04/20/2016 10:00:29 devpinoyLogger Verifying Element is present.
+04/20/2016 10:00:29 devpinoyLogger Fail -- Element not present on page.An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 131 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'MacBook-Pro-4.local', ip: '10.11.19.79', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.vcast.mediamanager, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=, deviceName=05157df5b2f0ac09, platform=WINDOWS, appActivity=com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity, desired={appPackage=com.vcast.mediamanager, appActivity=com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity, platformName=Android, version=, deviceName=, platform=WINDOWS}, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: eaddf0f3-8134-4a23-ba23-ed8041eb7059
+*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id='id/dialog_title']}
+04/20/2016 10:00:30 devpinoyLogger Screenshot Target File for Fail is - /Users/jsah0003/tmp/vzcloud_android/screenshots/04_20_2016/VerifySettings_EmailAddress_TS15_1_2016_04_20_10_00_29_Fail.jpg
+04/20/2016 10:00:30 devpinoyLogger Running Keyword is : verifypresent
+04/20/2016 10:00:30 devpinoyLogger Verifying Element is present.
+04/20/2016 10:00:31 devpinoyLogger Pass
+04/20/2016 10:00:31 devpinoyLogger Running Keyword is : createNewEmail
+04/20/2016 10:00:31 devpinoyLogger Data created for new email address is New1461160831112@gmail.com
+04/20/2016 10:00:31 devpinoyLogger Pass
+04/20/2016 10:00:31 devpinoyLogger Running Keyword is : synchronize
+04/20/2016 10:00:31 devpinoyLogger Waiting for page to load
+04/20/2016 10:00:36 devpinoyLogger Pass
+04/20/2016 10:00:36 devpinoyLogger Running Keyword is : writeInput_id
+04/20/2016 10:00:36 devpinoyLogger Performing entering the text in text box 
+04/20/2016 10:00:36 devpinoyLogger Executing Keyword = writeInput_id
+04/20/2016 10:00:36 devpinoyLogger object value is  ->> com.vcast.mediamanager:id/enterEmail
+04/20/2016 10:00:36 devpinoyLogger Input parameter ::-> New1461160831112@gmail.com
+04/20/2016 10:00:45 devpinoyLogger Pass
+04/20/2016 10:00:45 devpinoyLogger Running Keyword is : clickLink
+04/20/2016 10:00:46 devpinoyLogger clicking the link
+04/20/2016 10:00:46 devpinoyLogger Executing Keyword = clickLink
+04/20/2016 10:00:46 devpinoyLogger object value is  ->> //android.widget.Button[@text='OK']
+04/20/2016 10:00:46 devpinoyLogger Input parameter ::-> null
+04/20/2016 10:00:47 devpinoyLogger Pass
+04/20/2016 10:00:47 devpinoyLogger Running Keyword is : waitForElementLoadDisappers
+04/20/2016 10:00:47 devpinoyLogger Waiting for element to load button to disappears
+04/20/2016 10:00:47 devpinoyLogger Pass
+04/20/2016 10:00:47 devpinoyLogger Running Keyword is : synchronize
+04/20/2016 10:00:47 devpinoyLogger Waiting for page to load
+04/20/2016 10:00:52 devpinoyLogger Pass
+04/20/2016 10:00:52 devpinoyLogger Running Keyword is : verifyText
+04/20/2016 10:00:55 devpinoyLogger Verifying the text
+04/20/2016 10:00:55 devpinoyLogger Pass
+04/20/2016 10:00:55 devpinoyLogger Running Keyword is : synchronize
+04/20/2016 10:00:55 devpinoyLogger Waiting for page to load
+04/20/2016 10:01:00 devpinoyLogger Pass
+04/20/2016 10:01:00 devpinoyLogger Running Keyword is : clickLink
+04/20/2016 10:01:00 devpinoyLogger clicking the link
+04/20/2016 10:01:00 devpinoyLogger Executing Keyword = clickLink
+04/20/2016 10:01:00 devpinoyLogger object value is  ->> //android.widget.TextView[@text='Email Address']
+04/20/2016 10:01:00 devpinoyLogger Input parameter ::-> null
+04/20/2016 10:01:01 devpinoyLogger Pass
+04/20/2016 10:01:01 devpinoyLogger Running Keyword is : writeInput_id
+04/20/2016 10:01:01 devpinoyLogger Performing entering the text in text box 
+04/20/2016 10:01:01 devpinoyLogger Executing Keyword = writeInput_id
+04/20/2016 10:01:01 devpinoyLogger object value is  ->> com.vcast.mediamanager:id/enterEmail
+04/20/2016 10:01:01 devpinoyLogger Input parameter ::-> New1461160831112@gmail.com
+04/20/2016 10:01:16 devpinoyLogger Pass
+04/20/2016 10:01:16 devpinoyLogger Running Keyword is : clickLink
+04/20/2016 10:01:17 devpinoyLogger clicking the link
+04/20/2016 10:01:17 devpinoyLogger Executing Keyword = clickLink
+04/20/2016 10:01:17 devpinoyLogger object value is  ->> //android.widget.Button[@text='OK']
+04/20/2016 10:01:17 devpinoyLogger Input parameter ::-> null
+04/20/2016 10:01:20 devpinoyLogger Pass
+04/20/2016 10:01:20 devpinoyLogger Running Keyword is : synchronize
+04/20/2016 10:01:20 devpinoyLogger Waiting for page to load
+04/20/2016 10:01:25 devpinoyLogger Pass
+04/20/2016 10:01:25 devpinoyLogger Running Keyword is : verifyText
+04/20/2016 10:01:28 devpinoyLogger Verifying the text
+04/20/2016 10:01:28 devpinoyLogger Pass
+04/20/2016 10:01:28 devpinoyLogger Running Keyword is : synchronize
+04/20/2016 10:01:28 devpinoyLogger Waiting for page to load
+04/20/2016 10:01:33 devpinoyLogger Pass
+04/20/2016 10:01:33 devpinoyLogger Running Keyword is : clickLink
+04/20/2016 10:01:33 devpinoyLogger clicking the link
+04/20/2016 10:01:33 devpinoyLogger Executing Keyword = clickLink
+04/20/2016 10:01:33 devpinoyLogger object value is  ->> //android.widget.TextView[@text='Email Address']
+04/20/2016 10:01:33 devpinoyLogger Input parameter ::-> null
+04/20/2016 10:01:34 devpinoyLogger Pass
+04/20/2016 10:01:34 devpinoyLogger Running Keyword is : clickLink
+04/20/2016 10:01:34 devpinoyLogger clicking the link
+04/20/2016 10:01:34 devpinoyLogger Executing Keyword = clickLink
+04/20/2016 10:01:34 devpinoyLogger object value is  ->> //android.widget.Button[@text='Cancel']
+04/20/2016 10:01:34 devpinoyLogger Input parameter ::-> null
+04/20/2016 10:01:38 devpinoyLogger Pass
+04/20/2016 10:01:38 devpinoyLogger Running Keyword is : synchronize
+04/20/2016 10:01:38 devpinoyLogger Waiting for page to load
+04/20/2016 10:01:43 devpinoyLogger Pass
+04/20/2016 10:01:43 devpinoyLogger Running Keyword is : verifyText
+04/20/2016 10:01:45 devpinoyLogger Verifying the text
+04/20/2016 10:01:46 devpinoyLogger Pass
+04/20/2016 10:01:46 devpinoyLogger Running Keyword is : synchronize
+04/20/2016 10:01:46 devpinoyLogger Waiting for page to load
+04/20/2016 10:01:51 devpinoyLogger Pass
+04/20/2016 10:01:51 devpinoyLogger Running Keyword is : closeApp
+04/20/2016 10:01:51 devpinoyLogger closing the browser
+04/20/2016 10:01:51 devpinoyLogger Executing Keyword = closeApp
+04/20/2016 10:01:51 devpinoyLogger object vaue is  ->> null
+04/20/2016 10:01:52 devpinoyLogger Pass
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_WhenToBackUp and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_HowToBackUp and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_WhatToBackUp and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_HowToDisable and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_About and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_AddSpace and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_VideoBackup and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_ContactsBackup and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_PhotosBackup and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_MusicBackup and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_DocumentsBackup and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_MessagesBackup and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_Callbackup and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_AppUsgCloud and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_AbtOptions and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySetting_AddSpaceFreeAcc and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Started Test Case :-> VerifySettings_AllPlansPrizes and RunMode is N
+04/20/2016 10:01:52 devpinoyLogger Ended Test Case :-> 
+04/20/2016 10:01:52 devpinoyLogger Completed Test Suite - verifySettings
+04/20/2016 10:01:52 devpinoyLogger Test Suite not Executed- verifyTools
+04/20/2016 10:01:52 devpinoyLogger Test Suite not Executed- VerifyAllFiles
+04/20/2016 10:01:52 devpinoyLogger Test Suite not Executed- VerifyLogin
+04/20/2016 10:01:52 devpinoyLogger Test Suite not Executed- verifyPhotosBucket
+04/20/2016 10:01:52 devpinoyLogger Test Suite not Executed- verifySanityTC
+04/20/2016 10:01:52 devpinoyLogger Test Suite not Executed- verifySettingsTablet
+04/20/2016 10:01:52 devpinoyLogger Test Suite not Executed- verifyDocumentsTablet
+04/20/2016 10:01:52 devpinoyLogger Test Suite not Executed- verifyMusicTablet
+04/20/2016 10:01:52 devpinoyLogger Test Suite not Executed- verifyPhotos&VideosTablet
+04/20/2016 10:01:53 devpinoyLogger Generate Merge Report

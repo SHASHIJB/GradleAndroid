@@ -1,0 +1,27 @@
+04/04/2016 12:35:43 devpinoyLogger Test Suite not Executed- TestDataGenerator
+04/04/2016 12:35:43 devpinoyLogger Test Suite not Executed- VerifyConnections
+04/04/2016 12:35:43 devpinoyLogger Test Suite not Executed- verifyHomeScreen
+04/04/2016 12:35:43 devpinoyLogger Test Suite not Executed- verifyPhotos&Videos
+04/04/2016 12:35:43 devpinoyLogger Test Suite not Executed- verifyMusic
+04/04/2016 12:35:43 devpinoyLogger Test Suite not Executed- verifyDocuments
+04/04/2016 12:35:43 devpinoyLogger Test Suite not Executed- verifySettings
+04/04/2016 12:35:43 devpinoyLogger Test Suite not Executed- verifyTools
+04/04/2016 12:35:43 devpinoyLogger Test Suite not Executed- VerifyAllFiles
+04/04/2016 12:35:43 devpinoyLogger Test Suite not Executed- VerifyLogin
+04/04/2016 12:35:43 devpinoyLogger Test Suite not Executed- verifyPhotosBucket
+04/04/2016 12:35:43 devpinoyLogger Executing Test Suite - verifyPhotosBucketTablet
+04/04/2016 12:35:43 devpinoyLogger Started Test Case :-> verifyPlaceOrder_All_Prints and RunMode is N
+04/04/2016 12:35:43 devpinoyLogger Ended Test Case :-> 
+04/04/2016 12:35:43 devpinoyLogger Started Test Case :-> VerifyCancelSizeSel and RunMode is N
+04/04/2016 12:35:43 devpinoyLogger Ended Test Case :-> 
+04/04/2016 12:35:43 devpinoyLogger Started Test Case :-> VerifyPrintTimelines and RunMode is N
+04/04/2016 12:35:43 devpinoyLogger Ended Test Case :-> 
+04/04/2016 12:35:43 devpinoyLogger Started Test Case :-> VerifyAddAdditional Photos and RunMode is N
+04/04/2016 12:35:43 devpinoyLogger Ended Test Case :-> 
+04/04/2016 12:35:43 devpinoyLogger Started Test Case :-> VerifyPhotoBucketHelp and RunMode is Y
+04/04/2016 12:35:43 devpinoyLogger Iteration Number 1 Started.
+04/04/2016 12:35:43 devpinoyLogger Running Keyword is : openApp
+04/04/2016 12:35:45 devpinoyLogger Take adb logcat and store it in the system 
+04/04/2016 12:35:46 devpinoyLogger Pass
+04/04/2016 12:35:46 devpinoyLogger Running Keyword is : synchronize
+04/04/2016 12:35:46 devpinoyLogger Waiting for page to load

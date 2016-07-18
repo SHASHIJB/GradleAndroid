@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/1603649/cloud/personal/syncdrive/appium/AndroidAutomation_VZCloud/16.2/vzcloud_android/tmp
+END
+file1
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/1603649/cloud/personal/syncdrive/appium/AndroidAutomation_VZCloud/16.2/vzcloud_android/tmp/file1
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/1603649/cloud/personal/syncdrive/appium/AndroidAutomation_VZCloud/16.2/vzcloud_android/tmp/server
+END
+client
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/1603649/cloud/personal/syncdrive/appium/AndroidAutomation_VZCloud/16.2/vzcloud_android/tmp/client
+END

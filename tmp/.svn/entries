@@ -1,0 +1,67 @@
+8
+
+dir
+1603686
+https://svn.synchronoss.net/cloud/personal/syncdrive/appium/AndroidAutomation_VZCloud/16.2/vzcloud_android/tmp
+https://svn.synchronoss.net
+
+
+
+2016-04-06T14:29:06.924038Z
+1603649
+jsah0003
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7a20fe67-cd15-0410-b938-fa9fc05b2de2
+
+file1
+file
+
+
+
+
+2016-04-06T14:59:31.559602Z
+d41d8cd98f00b204e9800998ecf8427e
+2016-04-06T14:29:06.924038Z
+1603649
+jsah0003
+
+.git
+dir
+
+server
+file
+
+
+
+
+2016-04-06T14:59:31.606602Z
+d41d8cd98f00b204e9800998ecf8427e
+2016-04-06T14:29:06.924038Z
+1603649
+jsah0003
+
+client
+file
+
+
+
+
+2016-04-06T14:59:31.628102Z
+d41d8cd98f00b204e9800998ecf8427e
+2016-04-06T14:29:06.924038Z
+1603649
+jsah0003
+

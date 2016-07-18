@@ -1,0 +1,45 @@
+07/15/2016 17:45:20 devpinoyLogger Test Suite not Executed- VerifyLogin
+07/15/2016 17:45:20 devpinoyLogger Test Suite not Executed- VerifyConnections
+07/15/2016 17:45:20 devpinoyLogger Executing Test Suite - verifyHomeScreen
+07/15/2016 17:45:20 devpinoyLogger Started Test Case :-> VerifyHomeScreenNav and RunMode is Y
+07/15/2016 17:45:20 devpinoyLogger Iteration Number 1 Started.
+07/15/2016 17:45:20 devpinoyLogger Running Keyword is : openApp
+07/15/2016 17:45:26 devpinoyLogger Pass
+07/15/2016 17:45:26 devpinoyLogger Running Keyword is : synchronize
+07/15/2016 17:45:26 devpinoyLogger Waiting for page to load
+07/15/2016 17:45:31 devpinoyLogger Pass
+07/15/2016 17:45:31 devpinoyLogger Running Keyword is : synchronize
+07/15/2016 17:45:31 devpinoyLogger Waiting for page to load
+07/15/2016 17:45:36 devpinoyLogger Pass
+07/15/2016 17:45:36 devpinoyLogger Running Keyword is : waitForElementLoad
+07/15/2016 17:45:36 devpinoyLogger Waiting for element to load
+07/15/2016 17:45:36 devpinoyLogger Pass
+07/15/2016 17:45:36 devpinoyLogger Running Keyword is : clickLink
+07/15/2016 17:45:36 devpinoyLogger clicking the link
+07/15/2016 17:45:36 devpinoyLogger Executing Keyword = clickLink
+07/15/2016 17:45:36 devpinoyLogger object value is  ->> //android.widget.ImageButton[@content-desc='Navigate up']
+07/15/2016 17:45:36 devpinoyLogger Input parameter ::-> null
+07/15/2016 17:45:36 devpinoyLogger Pass
+07/15/2016 17:45:36 devpinoyLogger Running Keyword is : ImplicitWait
+07/15/2016 17:45:36 devpinoyLogger Running Keyword is : verifypresent
+07/15/2016 17:45:36 devpinoyLogger Verifying Element is present.
+07/15/2016 17:45:38 devpinoyLogger Pass
+07/15/2016 17:45:38 devpinoyLogger Running Keyword is : synchronize
+07/15/2016 17:45:38 devpinoyLogger Waiting for page to load
+07/15/2016 17:45:43 devpinoyLogger Pass
+07/15/2016 17:45:43 devpinoyLogger Running Keyword is : clickLink
+07/15/2016 17:45:43 devpinoyLogger clicking the link
+07/15/2016 17:45:43 devpinoyLogger Executing Keyword = clickLink
+07/15/2016 17:45:43 devpinoyLogger object value is  ->> //android.widget.TextView[@text='Home']
+07/15/2016 17:45:43 devpinoyLogger Input parameter ::-> null
+07/15/2016 17:45:43 devpinoyLogger Pass
+07/15/2016 17:45:43 devpinoyLogger Running Keyword is : ImplicitWait
+07/15/2016 17:45:43 devpinoyLogger Running Keyword is : synchronize
+07/15/2016 17:45:43 devpinoyLogger Waiting for page to load
+07/15/2016 17:45:48 devpinoyLogger Pass
+07/15/2016 17:45:48 devpinoyLogger Running Keyword is : scrollTo
+07/15/2016 17:45:48 devpinoyLogger scroll to
+07/15/2016 17:45:48 devpinoyLogger Executing Keyword = scrollTo
+07/15/2016 17:45:48 devpinoyLogger object value is  ->> null
+07/15/2016 17:45:48 devpinoyLogger Input parameter ::-> Photos & Videos
+07/15/2016 17:45:48 devpinoyLogger Waiting for page to load

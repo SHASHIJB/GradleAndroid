@@ -1,0 +1,626 @@
+2016-02-16 21:52:47:668 - info: Welcome to Appium v1.4.13 (REV c75d8adcb66a75818a542fe1891a34260c21f76a)
+2016-02-16 21:52:47:670 - info: Appium REST http interface listener started on 127.0.0.1:4723
+2016-02-16 21:52:47:672 - info: [debug] Non-default server args: {"address":"127.0.0.1","bootstrapPort":4242,"noReset":true,"log":"/Users/jsah0003/Desktop/Synchronoss/vzcloud_android/VZCloud/src/web/mobile/logs/AppiumLogs/appiumLogs.txt"}
+2016-02-16 21:52:47:673 - info: Console LogLevel: debug
+2016-02-16 21:52:47:673 - info: File LogLevel: debug
+2016-02-16 21:52:52:369 - info: --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.vcast.mediamanager","appActivity":"com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity","platformName":"Android","version":"","deviceName":"Samsung-SM-G920V","platform":"ANDROID"}}
+2016-02-16 21:52:52:371 - info: Client User-Agent string: Apache-HttpClient/4.3.6 (java 1.5)
+2016-02-16 21:52:52:373 - info: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : version, platform
+2016-02-16 21:52:52:375 - info: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+2016-02-16 21:52:52:375 - info: [debug] Creating new appium session d22f3449-f2f1-41ee-8993-3c779d879a08
+2016-02-16 21:52:52:376 - info: Starting android appium
+2016-02-16 21:52:52:377 - info: [debug] Getting Java version
+2016-02-16 21:52:52:460 - info: Java version is: 1.8.0_65
+2016-02-16 21:52:52:461 - info: [debug] Checking whether adb is present
+2016-02-16 21:52:52:462 - info: [debug] Using adb from /Users/jsah0003/Library/Android/sdk/platform-tools/adb
+2016-02-16 21:52:52:463 - warn: No app capability, can't parse package/activity
+2016-02-16 21:52:52:463 - info: [debug] Using fast reset? false
+2016-02-16 21:52:52:463 - info: [debug] Preparing device for session
+2016-02-16 21:52:52:464 - info: [debug] Not checking whether app is present since we are assuming it's already on the device
+2016-02-16 21:52:52:464 - info: Retrieving device
+2016-02-16 21:52:52:464 - info: [debug] Trying to find a connected android device
+2016-02-16 21:52:52:465 - info: [debug] Getting connected devices...
+2016-02-16 21:52:52:466 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb devices
+2016-02-16 21:52:52:509 - info: [debug] 1 device(s) connected
+2016-02-16 21:52:52:510 - info: Found device 05157df5b2f0ac09
+2016-02-16 21:52:52:510 - info: [debug] Setting device id to 05157df5b2f0ac09
+2016-02-16 21:52:52:510 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+2016-02-16 21:52:52:511 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 wait-for-device
+2016-02-16 21:52:52:533 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 shell "echo 'ready'"
+2016-02-16 21:52:52:576 - info: [debug] Starting logcat capture
+2016-02-16 21:52:52:612 - info: [debug] Getting device API level
+2016-02-16 21:52:52:613 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 shell "getprop ro.build.version.sdk"
+2016-02-16 21:52:52:676 - info: [debug] Device is at API Level 22
+2016-02-16 21:52:52:676 - info: Device API level is: 22
+2016-02-16 21:52:52:676 - info: [debug] Extracting strings for language: default
+2016-02-16 21:52:52:677 - info: [debug] Apk doesn't exist locally
+2016-02-16 21:52:52:677 - info: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+2016-02-16 21:52:52:677 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 shell "rm -rf /data/local/tmp/strings.json"
+2016-02-16 21:52:52:720 - info: [debug] Not uninstalling app since server not started with --full-reset
+2016-02-16 21:52:52:720 - info: [debug] Skipping install since we launched with a package instead of an app path
+2016-02-16 21:52:52:721 - info: [debug] Forwarding system:4242 to device:4724
+2016-02-16 21:52:52:721 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 forward tcp:4242 tcp:4724
+2016-02-16 21:52:52:746 - info: [debug] Pushing appium bootstrap to device...
+2016-02-16 21:52:52:747 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 push "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/android_bootstrap/AppiumBootstrap.jar" /data/local/tmp/
+2016-02-16 21:52:52:780 - info: [debug] Pushing settings apk to device...
+2016-02-16 21:52:52:780 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/settings_apk/settings_apk-debug.apk"
+2016-02-16 21:53:05:601 - info: [debug] Pushing unlock helper app to device...
+2016-02-16 21:53:05:602 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 install "/Applications/Appium.app/Contents/Resources/node_modules/appium/build/unlock_apk/unlock_apk-debug.apk"
+2016-02-16 21:53:16:871 - info: Starting App
+2016-02-16 21:53:16:872 - info: [debug] Attempting to kill all 'uiautomator' processes
+2016-02-16 21:53:16:872 - info: [debug] Getting all processes with 'uiautomator'
+2016-02-16 21:53:16:873 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 shell "ps 'uiautomator'"
+2016-02-16 21:53:16:999 - info: [debug] No matching processes found
+2016-02-16 21:53:17:000 - info: [debug] Running bootstrap
+2016-02-16 21:53:17:000 - info: [debug] spawning: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.vcast.mediamanager -e disableAndroidWatchers false
+2016-02-16 21:53:17:736 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2016-02-16 21:53:17:737 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
+2016-02-16 21:53:17:737 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
+2016-02-16 21:53:17:737 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2016-02-16 21:53:17:738 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2016-02-16 21:53:17:738 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2016-02-16 21:53:17:738 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
+2016-02-16 21:53:17:738 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
+2016-02-16 21:53:17:769 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+2016-02-16 21:53:17:769 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+2016-02-16 21:53:17:770 - info: [debug] [BOOTSTRAP] [debug] Loading json...
+2016-02-16 21:53:17:772 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+2016-02-16 21:53:17:773 - info: [debug] Waking up device if it's not alive
+2016-02-16 21:53:17:774 - info: [debug] Pushing command to appium work queue: ["wake",{}]
+2016-02-16 21:53:17:780 - info: [debug] [BOOTSTRAP] [debug] Client connected
+2016-02-16 21:53:17:781 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+2016-02-16 21:53:17:781 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:17:781 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
+2016-02-16 21:53:17:783 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-02-16 21:53:17:784 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 shell "dumpsys window"
+2016-02-16 21:53:17:891 - info: [debug] Screen already unlocked, continuing.
+2016-02-16 21:53:17:892 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+2016-02-16 21:53:17:894 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+2016-02-16 21:53:17:894 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:17:895 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+2016-02-16 21:53:17:895 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data\/local\/tmp"}
+2016-02-16 21:53:17:895 - info: [debug] dataDir set to: /data/local/tmp
+2016-02-16 21:53:17:896 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+2016-02-16 21:53:17:897 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+2016-02-16 21:53:17:898 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:17:898 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+2016-02-16 21:53:17:902 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
+2016-02-16 21:53:17:903 - info: [debug] Getting device API level
+2016-02-16 21:53:17:903 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 shell "getprop ro.build.version.sdk"
+2016-02-16 21:53:17:942 - info: [debug] Device is at API Level 22
+2016-02-16 21:53:17:943 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.vcast.mediamanager/com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity"
+2016-02-16 21:53:19:065 - info: [debug] Waiting for pkg "com.vcast.mediamanager" and activity "com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity" to be focused
+2016-02-16 21:53:19:065 - info: [debug] Getting focused package and activity
+2016-02-16 21:53:19:066 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 shell "dumpsys window windows"
+2016-02-16 21:53:19:112 - info: [debug] executing cmd: /Users/jsah0003/Library/Android/sdk/platform-tools/adb -s 05157df5b2f0ac09 shell "getprop ro.build.version.release"
+2016-02-16 21:53:19:145 - info: [debug] Device is at release version 5.1.1
+2016-02-16 21:53:19:146 - info: [debug] Device launched! Ready for commands
+2016-02-16 21:53:19:146 - info: [debug] Setting command timeout to the default of 60 secs
+2016-02-16 21:53:19:147 - info: [debug] Appium session started with sessionId d22f3449-f2f1-41ee-8993-3c779d879a08
+2016-02-16 21:53:19:152 - info: <-- POST /wd/hub/session 303 26783.455 ms - 74 
+2016-02-16 21:53:19:172 - info: --> GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08 {}
+2016-02-16 21:53:19:173 - info: [debug] Responding to client with success: {"status":0,"value":{"platform":"ANDROID","browserName":"Android","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.vcast.mediamanager","appActivity":"com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity","platformName":"Android","version":"","deviceName":"Samsung-SM-G920V","platform":"ANDROID"},"appPackage":"com.vcast.mediamanager","appActivity":"com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity","platformName":"Android","version":"","deviceName":"05157df5b2f0ac09"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:19:176 - info: <-- GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08 200 4.229 ms - 716 {"status":0,"value":{"platform":"ANDROID","browserName":"Android","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.vcast.mediamanager","appActivity":"com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity","platformName":"Android","version":"","deviceName":"Samsung-SM-G920V","platform":"ANDROID"},"appPackage":"com.vcast.mediamanager","appActivity":"com.newbay.syncdrive.android.ui.nab.NabSplashLogoActivity","platformName":"Android","version":"","deviceName":"05157df5b2f0ac09"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:29:213 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-02-16 21:53:29:214 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:29:215 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}]
+2016-02-16 21:53:29:224 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}}
+2016-02-16 21:53:29:225 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:29:225 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:29:225 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.ImageButton[@content-desc='Navigate up'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:29:367 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.ImageButton, INSTANCE=0]
+2016-02-16 21:53:29:486 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2016-02-16 21:53:29:487 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"1"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:29:489 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 275.584 ms - 87 {"status":0,"value":{"ELEMENT":"1"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:29:495 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-02-16 21:53:29:496 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:29:497 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}]
+2016-02-16 21:53:29:500 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}}
+2016-02-16 21:53:29:501 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:29:501 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:29:501 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.ImageButton[@content-desc='Navigate up'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:29:591 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.ImageButton, INSTANCE=0]
+2016-02-16 21:53:29:666 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2016-02-16 21:53:29:667 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"2"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:29:668 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 172.277 ms - 87 {"status":0,"value":{"ELEMENT":"2"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:29:673 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.ImageButton[@content-desc='Navigate up']"}
+2016-02-16 21:53:29:674 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:29:674 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}]
+2016-02-16 21:53:29:679 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.ImageButton[@content-desc='Navigate up']","context":"","multiple":false}}
+2016-02-16 21:53:29:679 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:29:680 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:29:680 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.ImageButton[@content-desc='Navigate up'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:29:805 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.ImageButton, INSTANCE=0]
+2016-02-16 21:53:29:818 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2016-02-16 21:53:29:818 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"3"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:29:819 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 146.213 ms - 87 {"status":0,"value":{"ELEMENT":"3"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:29:826 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/3/click {"id":"3"}
+2016-02-16 21:53:29:827 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"3"}]
+2016-02-16 21:53:29:829 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2016-02-16 21:53:29:830 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:29:830 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-02-16 21:53:30:027 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-02-16 21:53:30:027 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:30:028 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/3/click 200 202.093 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:35:040 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@index=8]"}
+2016-02-16 21:53:35:040 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:35:041 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@index=8]","context":"","multiple":false}]
+2016-02-16 21:53:35:051 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@index=8]","context":"","multiple":false}}
+2016-02-16 21:53:35:051 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:35:051 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:35:052 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@index=8] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:35:169 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=24]
+2016-02-16 21:53:35:254 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2016-02-16 21:53:35:254 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"4"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:35:255 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 215.457 ms - 87 {"status":0,"value":{"ELEMENT":"4"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:35:261 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@index=8]"}
+2016-02-16 21:53:35:262 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:35:262 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@index=8]","context":"","multiple":false}]
+2016-02-16 21:53:35:287 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@index=8]","context":"","multiple":false}}
+2016-02-16 21:53:35:287 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:35:288 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:35:288 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@index=8] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:35:409 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=24]
+2016-02-16 21:53:35:502 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"5"}}
+2016-02-16 21:53:35:503 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"5"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:35:503 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 242.201 ms - 87 {"status":0,"value":{"ELEMENT":"5"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:35:508 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@index=8]"}
+2016-02-16 21:53:35:509 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:35:509 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@index=8]","context":"","multiple":false}]
+2016-02-16 21:53:35:512 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@index=8]","context":"","multiple":false}}
+2016-02-16 21:53:35:513 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:35:513 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:35:513 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@index=8] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:35:620 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=24]
+2016-02-16 21:53:35:684 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+2016-02-16 21:53:35:684 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"6"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:35:684 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 175.942 ms - 87 {"status":0,"value":{"ELEMENT":"6"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:35:688 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/6/click {"id":"6"}
+2016-02-16 21:53:35:689 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"6"}]
+2016-02-16 21:53:35:692 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+2016-02-16 21:53:35:693 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:35:693 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-02-16 21:53:36:075 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-02-16 21:53:36:076 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:36:076 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/6/click 200 388.223 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:089 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Settings']"}
+2016-02-16 21:53:41:089 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:41:089 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Settings']","context":"","multiple":false}]
+2016-02-16 21:53:41:094 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Settings']","context":"","multiple":false}}
+2016-02-16 21:53:41:095 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:41:095 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:41:095 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Settings'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:41:191 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+2016-02-16 21:53:41:208 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+2016-02-16 21:53:41:209 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"7"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:209 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 120.752 ms - 87 {"status":0,"value":{"ELEMENT":"7"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:215 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Settings']"}
+2016-02-16 21:53:41:216 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:41:216 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Settings']","context":"","multiple":false}]
+2016-02-16 21:53:41:219 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Settings']","context":"","multiple":false}}
+2016-02-16 21:53:41:219 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:41:219 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:41:220 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Settings'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:41:309 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+2016-02-16 21:53:41:325 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+2016-02-16 21:53:41:325 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"8"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:326 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 111.770 ms - 87 {"status":0,"value":{"ELEMENT":"8"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:331 - info: --> GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/8/displayed {}
+2016-02-16 21:53:41:332 - info: [debug] Pushing command to appium work queue: ["element:getAttribute",{"elementId":"8","attribute":"displayed"}]
+2016-02-16 21:53:41:335 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"elementId":"8","attribute":"displayed"}}
+2016-02-16 21:53:41:335 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:41:335 - info: [debug] [BOOTSTRAP] [debug] Got command action: getAttribute
+2016-02-16 21:53:41:346 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"true"}
+2016-02-16 21:53:41:347 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:348 - info: <-- GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/8/displayed 200 16.653 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:353 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Email Address']"}
+2016-02-16 21:53:41:354 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:41:354 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}]
+2016-02-16 21:53:41:357 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}}
+2016-02-16 21:53:41:358 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:41:358 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:41:358 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Email Address'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:41:482 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+2016-02-16 21:53:41:559 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"9"}}
+2016-02-16 21:53:41:559 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"9"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:560 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 206.733 ms - 87 {"status":0,"value":{"ELEMENT":"9"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:565 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Email Address']"}
+2016-02-16 21:53:41:566 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:41:566 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}]
+2016-02-16 21:53:41:569 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}}
+2016-02-16 21:53:41:569 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:41:570 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:41:570 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Email Address'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:41:675 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+2016-02-16 21:53:41:778 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"10"}}
+2016-02-16 21:53:41:778 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"10"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:779 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 213.960 ms - 88 {"status":0,"value":{"ELEMENT":"10"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:784 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Email Address']"}
+2016-02-16 21:53:41:785 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:41:785 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}]
+2016-02-16 21:53:41:788 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}}
+2016-02-16 21:53:41:789 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:41:789 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:41:789 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Email Address'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:41:876 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+2016-02-16 21:53:41:961 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"11"}}
+2016-02-16 21:53:41:961 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"11"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:963 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 178.761 ms - 88 {"status":0,"value":{"ELEMENT":"11"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:41:967 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/11/click {"id":"11"}
+2016-02-16 21:53:41:968 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"11"}]
+2016-02-16 21:53:41:971 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"11"}}
+2016-02-16 21:53:41:971 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:41:971 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-02-16 21:53:42:435 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-02-16 21:53:42:435 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:42:436 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/11/click 200 468.568 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:42:443 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Email Address']"}
+2016-02-16 21:53:42:443 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:42:443 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}]
+2016-02-16 21:53:42:452 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}}
+2016-02-16 21:53:42:452 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:42:452 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:42:452 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Email Address'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:42:660 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+2016-02-16 21:53:43:170 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"12"}}
+2016-02-16 21:53:43:170 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"12"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:43:171 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 727.965 ms - 88 {"status":0,"value":{"ELEMENT":"12"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:43:176 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Email Address']"}
+2016-02-16 21:53:43:176 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:43:176 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}]
+2016-02-16 21:53:43:180 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}}
+2016-02-16 21:53:43:181 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:43:181 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:43:181 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Email Address'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:43:256 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+2016-02-16 21:53:43:279 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"13"}}
+2016-02-16 21:53:43:280 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"13"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:43:281 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 105.086 ms - 88 {"status":0,"value":{"ELEMENT":"13"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:43:285 - info: --> GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/13/displayed {}
+2016-02-16 21:53:43:286 - info: [debug] Pushing command to appium work queue: ["element:getAttribute",{"elementId":"13","attribute":"displayed"}]
+2016-02-16 21:53:43:288 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"elementId":"13","attribute":"displayed"}}
+2016-02-16 21:53:43:288 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:43:288 - info: [debug] [BOOTSTRAP] [debug] Got command action: getAttribute
+2016-02-16 21:53:43:305 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"true"}
+2016-02-16 21:53:43:305 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:43:307 - info: <-- GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/13/displayed 200 21.157 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:43:311 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Your Email Accounts']"}
+2016-02-16 21:53:43:312 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:43:312 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Your Email Accounts']","context":"","multiple":false}]
+2016-02-16 21:53:43:313 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Your Email Accounts']","context":"","multiple":false}}
+2016-02-16 21:53:43:314 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:43:315 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:43:315 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Your Email Accounts'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:43:398 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=1]
+2016-02-16 21:53:43:419 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"14"}}
+2016-02-16 21:53:43:420 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"14"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:43:421 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 109.510 ms - 88 {"status":0,"value":{"ELEMENT":"14"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:43:425 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Your Email Accounts']"}
+2016-02-16 21:53:43:426 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:43:426 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Your Email Accounts']","context":"","multiple":false}]
+2016-02-16 21:53:43:428 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Your Email Accounts']","context":"","multiple":false}}
+2016-02-16 21:53:43:428 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:43:429 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:43:429 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Your Email Accounts'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:43:527 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=1]
+2016-02-16 21:53:43:548 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"15"}}
+2016-02-16 21:53:43:548 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"15"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:43:549 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 123.379 ms - 88 {"status":0,"value":{"ELEMENT":"15"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:43:553 - info: --> GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/15/displayed {}
+2016-02-16 21:53:43:553 - info: [debug] Pushing command to appium work queue: ["element:getAttribute",{"elementId":"15","attribute":"displayed"}]
+2016-02-16 21:53:43:556 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"elementId":"15","attribute":"displayed"}}
+2016-02-16 21:53:43:556 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:43:556 - info: [debug] [BOOTSTRAP] [debug] Got command action: getAttribute
+2016-02-16 21:53:43:573 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"true"}
+2016-02-16 21:53:43:573 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:43:574 - info: <-- GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/15/displayed 200 20.795 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:48:584 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"com.vcast.mediamanager:id/enterEmail"}
+2016-02-16 21:53:48:584 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:48:585 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"com.vcast.mediamanager:id/enterEmail","context":"","multiple":false}]
+2016-02-16 21:53:48:594 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"com.vcast.mediamanager:id/enterEmail","context":"","multiple":false}}
+2016-02-16 21:53:48:594 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:48:594 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:48:595 - info: [debug] [BOOTSTRAP] [debug] Finding com.vcast.mediamanager:id/enterEmail using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:48:665 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-02-16 21:53:48:666 - info: [debug] Condition unmet after 81ms. Timing out.
+2016-02-16 21:53:48:666 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:48:668 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 500 84.357 ms - 230 
+2016-02-16 21:53:48:674 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"id","value":"com.vcast.mediamanager:id/enterEmail"}
+2016-02-16 21:53:48:674 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:48:674 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.vcast.mediamanager:id/enterEmail","context":"","multiple":false}]
+2016-02-16 21:53:48:676 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.vcast.mediamanager:id/enterEmail","context":"","multiple":false}}
+2016-02-16 21:53:48:677 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:48:677 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:48:677 - info: [debug] [BOOTSTRAP] [debug] Finding com.vcast.mediamanager:id/enterEmail using ID with the contextId:  multiple: false
+2016-02-16 21:53:48:678 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.vcast.mediamanager:id/enterEmail]
+2016-02-16 21:53:48:702 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"16"}}
+2016-02-16 21:53:48:702 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"16"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:48:703 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 29.938 ms - 88 {"status":0,"value":{"ELEMENT":"16"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:48:709 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/16/value {"id":"16","value":["New1455659623575@gmail.com"]}
+2016-02-16 21:53:48:709 - info: [debug] Pushing command to appium work queue: ["element:setText",{"elementId":"16","text":"New1455659623575@gmail.com","replace":false}]
+2016-02-16 21:53:48:712 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"16","text":"New1455659623575@gmail.com","replace":false}}
+2016-02-16 21:53:48:712 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:48:712 - info: [debug] [BOOTSTRAP] [debug] Got command action: setText
+2016-02-16 21:53:48:712 - info: [debug] [BOOTSTRAP] [debug] Using element passed in.
+2016-02-16 21:53:48:728 - info: [debug] [BOOTSTRAP] [debug] Attempting to clear using UiObject.clearText().
+2016-02-16 21:53:52:444 - info: [debug] [BOOTSTRAP] [debug] Text remains after clearing, but it appears to be hint text.
+2016-02-16 21:53:52:504 - info: [debug] [BOOTSTRAP] [debug] Text not cleared. Assuming remainder is hint text.
+2016-02-16 21:53:52:504 - info: [debug] [BOOTSTRAP] [debug] Sending plain text to element: New1455659623575@gmail.com
+2016-02-16 21:53:57:067 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-02-16 21:53:57:067 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:57:068 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/16/value 200 8358.958 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:57:073 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.Button[@text='OK']"}
+2016-02-16 21:53:57:073 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:57:073 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}]
+2016-02-16 21:53:57:077 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}}
+2016-02-16 21:53:57:077 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:57:077 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:57:077 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.Button[@text='OK'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:57:139 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=1]
+2016-02-16 21:53:57:794 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"17"}}
+2016-02-16 21:53:57:795 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"17"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:57:795 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 722.775 ms - 88 {"status":0,"value":{"ELEMENT":"17"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:57:800 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.Button[@text='OK']"}
+2016-02-16 21:53:57:801 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:57:801 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}]
+2016-02-16 21:53:57:804 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}}
+2016-02-16 21:53:57:805 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:57:806 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:57:806 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.Button[@text='OK'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:57:897 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=1]
+2016-02-16 21:53:57:919 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"18"}}
+2016-02-16 21:53:57:919 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"18"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:57:920 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 119.599 ms - 88 {"status":0,"value":{"ELEMENT":"18"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:57:924 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.Button[@text='OK']"}
+2016-02-16 21:53:57:925 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:53:57:925 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}]
+2016-02-16 21:53:57:931 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}}
+2016-02-16 21:53:57:931 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:57:931 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:53:57:931 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.Button[@text='OK'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:53:57:996 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=1]
+2016-02-16 21:53:58:019 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"19"}}
+2016-02-16 21:53:58:020 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"19"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:58:020 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 96.090 ms - 88 {"status":0,"value":{"ELEMENT":"19"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:58:025 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/19/click {"id":"19"}
+2016-02-16 21:53:58:025 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"19"}]
+2016-02-16 21:53:58:028 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"19"}}
+2016-02-16 21:53:58:028 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:53:58:028 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-02-16 21:53:58:574 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-02-16 21:53:58:575 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:53:58:575 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/19/click 200 550.387 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:06:088 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[4]/android.widget.LinearLayout[1]/android.widget.TextView[2]"}
+2016-02-16 21:54:06:089 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:06:090 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[4]/android.widget.LinearLayout[1]/android.widget.TextView[2]","context":"","multiple":false}]
+2016-02-16 21:54:06:101 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[4]/android.widget.LinearLayout[1]/android.widget.TextView[2]","context":"","multiple":false}}
+2016-02-16 21:54:06:102 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:06:102 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:06:102 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[4]/android.widget.LinearLayout[1]/android.widget.TextView[2] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:06:192 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=10]
+2016-02-16 21:54:06:276 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"20"}}
+2016-02-16 21:54:06:277 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"20"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:06:278 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 190.082 ms - 88 {"status":0,"value":{"ELEMENT":"20"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:06:282 - info: --> GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/20/text {}
+2016-02-16 21:54:06:283 - info: [debug] Pushing command to appium work queue: ["element:getText",{"elementId":"20"}]
+2016-02-16 21:54:06:286 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"20"}}
+2016-02-16 21:54:06:287 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:06:287 - info: [debug] [BOOTSTRAP] [debug] Got command action: getText
+2016-02-16 21:54:06:336 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"New1455659623575@gmail.com"}
+2016-02-16 21:54:06:337 - info: [debug] Responding to client with success: {"status":0,"value":"New1455659623575@gmail.com","sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:06:337 - info: <-- GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/20/text 200 55.230 ms - 100 {"status":0,"value":"New1455659623575@gmail.com","sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:11:349 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Email Address']"}
+2016-02-16 21:54:11:350 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:11:350 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}]
+2016-02-16 21:54:11:359 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}}
+2016-02-16 21:54:11:359 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:11:359 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:11:359 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Email Address'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:11:437 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+2016-02-16 21:54:11:537 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"21"}}
+2016-02-16 21:54:11:538 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"21"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:11:538 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 189.261 ms - 88 {"status":0,"value":{"ELEMENT":"21"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:11:543 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Email Address']"}
+2016-02-16 21:54:11:544 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:11:544 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}]
+2016-02-16 21:54:11:547 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}}
+2016-02-16 21:54:11:548 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:11:548 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:11:549 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Email Address'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:11:656 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+2016-02-16 21:54:11:731 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"22"}}
+2016-02-16 21:54:11:731 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"22"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:11:732 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 188.760 ms - 88 {"status":0,"value":{"ELEMENT":"22"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:11:736 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Email Address']"}
+2016-02-16 21:54:11:737 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:11:737 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}]
+2016-02-16 21:54:11:739 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}}
+2016-02-16 21:54:11:741 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:11:741 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:11:741 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Email Address'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:11:827 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+2016-02-16 21:54:11:960 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"23"}}
+2016-02-16 21:54:11:960 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"23"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:11:961 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 224.731 ms - 88 {"status":0,"value":{"ELEMENT":"23"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:11:966 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/23/click {"id":"23"}
+2016-02-16 21:54:11:966 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"23"}]
+2016-02-16 21:54:11:970 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"23"}}
+2016-02-16 21:54:11:971 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:11:971 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-02-16 21:54:12:328 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-02-16 21:54:12:329 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:12:329 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/23/click 200 363.698 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:12:335 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"com.vcast.mediamanager:id/enterEmail"}
+2016-02-16 21:54:12:336 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:12:336 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"com.vcast.mediamanager:id/enterEmail","context":"","multiple":false}]
+2016-02-16 21:54:12:344 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"com.vcast.mediamanager:id/enterEmail","context":"","multiple":false}}
+2016-02-16 21:54:12:345 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:12:345 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:12:345 - info: [debug] [BOOTSTRAP] [debug] Finding com.vcast.mediamanager:id/enterEmail using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:12:500 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":7,"value":"Could not find an element using supplied strategy. "}
+2016-02-16 21:54:12:500 - info: [debug] Condition unmet after 164ms. Timing out.
+2016-02-16 21:54:12:500 - info: [debug] Responding to client with error: {"status":7,"value":{"message":"An element could not be located on the page using the given search parameters.","origValue":"Could not find an element using supplied strategy. "},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:12:501 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 500 166.020 ms - 230 
+2016-02-16 21:54:12:506 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"id","value":"com.vcast.mediamanager:id/enterEmail"}
+2016-02-16 21:54:12:506 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:12:506 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.vcast.mediamanager:id/enterEmail","context":"","multiple":false}]
+2016-02-16 21:54:12:510 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.vcast.mediamanager:id/enterEmail","context":"","multiple":false}}
+2016-02-16 21:54:12:510 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:12:510 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:12:511 - info: [debug] [BOOTSTRAP] [debug] Finding com.vcast.mediamanager:id/enterEmail using ID with the contextId:  multiple: false
+2016-02-16 21:54:12:512 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.vcast.mediamanager:id/enterEmail]
+2016-02-16 21:54:12:977 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"24"}}
+2016-02-16 21:54:12:978 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"24"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:12:979 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 473.179 ms - 88 {"status":0,"value":{"ELEMENT":"24"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:12:983 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/24/value {"id":"24","value":["New1455659623575@gmail.com"]}
+2016-02-16 21:54:12:984 - info: [debug] Pushing command to appium work queue: ["element:setText",{"elementId":"24","text":"New1455659623575@gmail.com","replace":false}]
+2016-02-16 21:54:12:988 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"24","text":"New1455659623575@gmail.com","replace":false}}
+2016-02-16 21:54:12:989 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:12:989 - info: [debug] [BOOTSTRAP] [debug] Got command action: setText
+2016-02-16 21:54:12:989 - info: [debug] [BOOTSTRAP] [debug] Using element passed in.
+2016-02-16 21:54:13:019 - info: [debug] [BOOTSTRAP] [debug] Attempting to clear using UiObject.clearText().
+2016-02-16 21:54:16:869 - info: [debug] [BOOTSTRAP] [debug] Text remains after clearing, but it appears to be hint text.
+2016-02-16 21:54:16:918 - info: [debug] [BOOTSTRAP] [debug] Text not cleared. Assuming remainder is hint text.
+2016-02-16 21:54:16:920 - info: [debug] [BOOTSTRAP] [debug] Sending plain text to element: New1455659623575@gmail.com
+2016-02-16 21:54:21:049 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-02-16 21:54:21:050 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:21:050 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/24/value 200 8066.938 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:21:057 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.Button[@text='OK']"}
+2016-02-16 21:54:21:057 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:21:057 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}]
+2016-02-16 21:54:21:064 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}}
+2016-02-16 21:54:21:065 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:21:065 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:21:065 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.Button[@text='OK'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:21:163 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=1]
+2016-02-16 21:54:21:811 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"25"}}
+2016-02-16 21:54:21:811 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"25"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:21:812 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 755.257 ms - 88 {"status":0,"value":{"ELEMENT":"25"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:21:821 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.Button[@text='OK']"}
+2016-02-16 21:54:21:821 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:21:822 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}]
+2016-02-16 21:54:21:825 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}}
+2016-02-16 21:54:21:826 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:21:827 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:21:827 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.Button[@text='OK'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:21:932 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=1]
+2016-02-16 21:54:21:956 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"26"}}
+2016-02-16 21:54:21:956 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"26"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:21:957 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 135.687 ms - 88 {"status":0,"value":{"ELEMENT":"26"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:21:961 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.Button[@text='OK']"}
+2016-02-16 21:54:21:962 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:21:962 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}]
+2016-02-16 21:54:21:967 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@text='OK']","context":"","multiple":false}}
+2016-02-16 21:54:21:967 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:21:968 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:21:968 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.Button[@text='OK'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:22:046 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=1]
+2016-02-16 21:54:22:138 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"27"}}
+2016-02-16 21:54:22:139 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"27"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:22:139 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 178.065 ms - 88 {"status":0,"value":{"ELEMENT":"27"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:22:144 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/27/click {"id":"27"}
+2016-02-16 21:54:22:144 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"27"}]
+2016-02-16 21:54:22:147 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"27"}}
+2016-02-16 21:54:22:147 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:22:147 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-02-16 21:54:25:317 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-02-16 21:54:25:317 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:25:318 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/27/click 200 3174.083 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:32:830 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[4]/android.widget.LinearLayout[1]/android.widget.TextView[2]"}
+2016-02-16 21:54:32:830 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:32:830 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[4]/android.widget.LinearLayout[1]/android.widget.TextView[2]","context":"","multiple":false}]
+2016-02-16 21:54:32:838 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[4]/android.widget.LinearLayout[1]/android.widget.TextView[2]","context":"","multiple":false}}
+2016-02-16 21:54:32:839 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:32:839 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:32:839 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.RelativeLayout[4]/android.widget.LinearLayout[1]/android.widget.TextView[2] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:32:940 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=10]
+2016-02-16 21:54:32:999 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"28"}}
+2016-02-16 21:54:32:999 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"28"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:33:000 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 170.576 ms - 88 {"status":0,"value":{"ELEMENT":"28"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:33:005 - info: --> GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/28/text {}
+2016-02-16 21:54:33:006 - info: [debug] Pushing command to appium work queue: ["element:getText",{"elementId":"28"}]
+2016-02-16 21:54:33:009 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"28"}}
+2016-02-16 21:54:33:010 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:33:010 - info: [debug] [BOOTSTRAP] [debug] Got command action: getText
+2016-02-16 21:54:33:035 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"New1455659623575@gmail.com"}
+2016-02-16 21:54:33:035 - info: [debug] Responding to client with success: {"status":0,"value":"New1455659623575@gmail.com","sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:33:036 - info: <-- GET /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/28/text 200 30.774 ms - 100 {"status":0,"value":"New1455659623575@gmail.com","sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:38:043 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Email Address']"}
+2016-02-16 21:54:38:043 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:38:043 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}]
+2016-02-16 21:54:38:052 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}}
+2016-02-16 21:54:38:053 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:38:053 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:38:053 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Email Address'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:38:141 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+2016-02-16 21:54:38:225 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"29"}}
+2016-02-16 21:54:38:226 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"29"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:38:226 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 183.752 ms - 88 {"status":0,"value":{"ELEMENT":"29"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:38:231 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Email Address']"}
+2016-02-16 21:54:38:232 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:38:232 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}]
+2016-02-16 21:54:38:235 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}}
+2016-02-16 21:54:38:236 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:38:236 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:38:236 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Email Address'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:38:340 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+2016-02-16 21:54:38:451 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"30"}}
+2016-02-16 21:54:38:451 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"30"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:38:452 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 220.714 ms - 88 {"status":0,"value":{"ELEMENT":"30"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:38:457 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.TextView[@text='Email Address']"}
+2016-02-16 21:54:38:457 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:38:457 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}]
+2016-02-16 21:54:38:461 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='Email Address']","context":"","multiple":false}}
+2016-02-16 21:54:38:462 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:38:462 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:38:462 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.TextView[@text='Email Address'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:38:549 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+2016-02-16 21:54:38:635 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"31"}}
+2016-02-16 21:54:38:635 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"31"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:38:636 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 178.855 ms - 88 {"status":0,"value":{"ELEMENT":"31"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:38:640 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/31/click {"id":"31"}
+2016-02-16 21:54:38:641 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"31"}]
+2016-02-16 21:54:38:644 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"31"}}
+2016-02-16 21:54:38:646 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:38:646 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
+2016-02-16 21:54:39:037 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2016-02-16 21:54:39:037 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:39:038 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/31/click 200 397.774 ms - 76 {"status":0,"value":true,"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:39:043 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.Button[@text='Cancel']"}
+2016-02-16 21:54:39:043 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:39:044 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.Button[@text='Cancel']","context":"","multiple":false}]
+2016-02-16 21:54:39:048 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@text='Cancel']","context":"","multiple":false}}
+2016-02-16 21:54:39:048 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:39:049 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:39:049 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.Button[@text='Cancel'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:39:205 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2016-02-16 21:54:39:691 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"32"}}
+2016-02-16 21:54:39:692 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"32"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:39:692 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 649.893 ms - 88 {"status":0,"value":{"ELEMENT":"32"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:39:697 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.Button[@text='Cancel']"}
+2016-02-16 21:54:39:697 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:39:697 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.Button[@text='Cancel']","context":"","multiple":false}]
+2016-02-16 21:54:39:705 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@text='Cancel']","context":"","multiple":false}}
+2016-02-16 21:54:39:705 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:39:705 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:39:705 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.Button[@text='Cancel'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:39:785 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2016-02-16 21:54:39:807 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"33"}}
+2016-02-16 21:54:39:808 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"33"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:39:808 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 111.534 ms - 88 {"status":0,"value":{"ELEMENT":"33"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:39:812 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element {"using":"xpath","value":"//android.widget.Button[@text='Cancel']"}
+2016-02-16 21:54:39:812 - info: [debug] Waiting up to 0ms for condition
+2016-02-16 21:54:39:813 - info: [debug] Pushing command to appium work queue: ["find",{"strategy":"xpath","selector":"//android.widget.Button[@text='Cancel']","context":"","multiple":false}]
+2016-02-16 21:54:39:815 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.Button[@text='Cancel']","context":"","multiple":false}}
+2016-02-16 21:54:39:815 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:39:815 - info: [debug] [BOOTSTRAP] [debug] Got command action: find
+2016-02-16 21:54:39:816 - info: [debug] [BOOTSTRAP] [debug] Finding //android.widget.Button[@text='Cancel'] using XPATH with the contextId:  multiple: false
+2016-02-16 21:54:39:886 - info: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.Button, INSTANCE=0]
+2016-02-16 21:54:39:980 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":{"ELEMENT":"34"}}
+2016-02-16 21:54:39:981 - info: [debug] Responding to client with success: {"status":0,"value":{"ELEMENT":"34"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:39:982 - info: <-- POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element 200 169.479 ms - 88 {"status":0,"value":{"ELEMENT":"34"},"sessionId":"d22f3449-f2f1-41ee-8993-3c779d879a08"}
+2016-02-16 21:54:39:987 - info: --> POST /wd/hub/session/d22f3449-f2f1-41ee-8993-3c779d879a08/element/34/click {"id":"34"}
+2016-02-16 21:54:39:987 - info: [debug] Pushing command to appium work queue: ["element:click",{"elementId":"34"}]
+2016-02-16 21:54:39:990 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"34"}}
+2016-02-16 21:54:39:990 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2016-02-16 21:54:39:991 - info: [debug] [BOOTSTRAP] [debug] Got command action: click
