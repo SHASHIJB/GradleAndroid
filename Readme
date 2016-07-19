@@ -4,7 +4,7 @@ Grade Project
 Install latest Gradle files should be configured 
 
 1. All the Dependency files present in build.gradle file
-2. To run the 
+2. To run gradle project 
 
   a. Go the command prompt and navigate to project path
   b. gradle clean
